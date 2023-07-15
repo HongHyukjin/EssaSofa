@@ -57,7 +57,7 @@ export default function MyProductInquiryComponent () {
     }
 
     $.ajax({
-      url: 'http://localhost:8080/JSP/essa/product_inquiry_select.jsp',
+      url: 'http://gurwlszx.cafe24.com/JSP/essa/product_inquiry_select.jsp',
       type: 'GET',
       data : formData,
       dataType: 'JSON',

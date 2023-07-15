@@ -57,74 +57,56 @@
 }
 #section12 .container .gap .content .insta-img-box {
   position: absolute;
-  -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.2);
 }
 #section12 .container .gap .content .insta-img-box img {
   position: absolute;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(1) {
   top: 330px;
   right: 0px;
-  -webkit-animation: insta-img-off 42s linear 0s infinite;
   animation: insta-img-off 42s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(2) {
   top: 320px;
   right: 0px;
-  -webkit-animation: insta-img-off 37s linear 0s infinite;
   animation: insta-img-off 37s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(3) {
   top: 270px;
   right: 0px;
-  -webkit-animation: insta-img-off 35s linear 0s infinite;
   animation: insta-img-off 35s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(4) {
   top: 300px;
   right: 0px;
-  -webkit-animation: insta-img-off 28s linear 0s infinite;
   animation: insta-img-off 28s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(5) {
   top: 310px;
   right: 0px;
-  -webkit-animation: insta-img-off 30s linear 0s infinite;
   animation: insta-img-off 30s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(6) {
   top: 259px;
   right: 0px;
-  -webkit-animation: insta-img-off 19s linear 0s infinite;
   animation: insta-img-off 19s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(7) {
   top: 287px;
   right: 0px;
-  -webkit-animation: insta-img-off 33s linear 0s infinite;
   animation: insta-img-off 33s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(8) {
   top: 270px;
   right: 0px;
-  -webkit-animation: insta-img-off 29s linear 0s infinite;
   animation: insta-img-off 29s linear 0s infinite;
 }
 #section12 .container .gap .content .insta-img-box img:nth-child(9) {
   top: 300px;
   right: 0px;
-  -webkit-animation: insta-img-off 26s linear 0s infinite;
   animation: insta-img-off 26s linear 0s infinite;
-}
-@-webkit-keyframes insta-img-off {
-  0% {
-    -webkit-transform: translateX(120vw);
-    transform: translateX(120vw);
-  }
-  100% {
-    -webkit-transform: translateX(-20vw);
-    transform: translateX(-20vw);
-  }
 }

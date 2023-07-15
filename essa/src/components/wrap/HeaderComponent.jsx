@@ -30,7 +30,7 @@ export default function HeaderComponent() {
             "user_id": sessionStorage.getItem("user_id")
         }
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/basket_list_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/basket_list_action.jsp',
             type: 'POST',
             data: formData,
             dataType: 'json',
@@ -83,7 +83,7 @@ export default function HeaderComponent() {
         }
 
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/update_getjoin_action.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/update_getjoin_action.jsp',
             type : 'POST',
             data : form_data,
             dataType : 'json',

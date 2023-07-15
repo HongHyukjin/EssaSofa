@@ -46,7 +46,8 @@
 #section11 .container .gap .content .left-box .video-wrap video {
   width: 663.891px;
   height: 757.5px;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
   border-radius: 20px;
 }
 #section11 .container .gap .content .right-box {
@@ -112,7 +113,8 @@
   transform: translateY(200%);
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   cursor: pointer;
   transition: all 0.5s;
 }

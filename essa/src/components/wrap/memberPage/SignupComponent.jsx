@@ -389,7 +389,7 @@ export default function SignupComponent(props) {
             }
     
             $.ajax({
-                url: 'http://localhost:8080/JSP/essa/signup_action.jsp',
+                url: 'http://gurwlszx.cafe24.com/JSP/essa/signup_action.jsp',
                 type: 'POST',
                 data: formData,
                 success(res) {

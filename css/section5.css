@@ -111,7 +111,8 @@
   transform: translateY(200%);
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   cursor: pointer;
   transition: all 0.5s;
 }

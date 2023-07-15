@@ -38,7 +38,7 @@ function SigninComponent(props) {
         }
 
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/signin_action.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/signin_action.jsp',
             type : 'POST',
             data : formData,
             dataType : 'json',

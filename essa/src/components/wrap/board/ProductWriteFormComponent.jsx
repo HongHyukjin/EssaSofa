@@ -73,7 +73,7 @@ export default function ProductWriteFormComponent (props){
         }
         console.log(formData);
         $.ajax({
-            url:'http://localhost:8080/JSP/essa/product_inquiry_action.jsp',
+            url:'http://gurwlszx.cafe24.com/JSP/essa/product_inquiry_action.jsp',
             type:'post',
             data:formData,
             success(res){

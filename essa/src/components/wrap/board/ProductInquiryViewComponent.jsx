@@ -49,7 +49,7 @@ export default function ProductInquiryViewComponent (props){
     const getList= async()=>{
         try {
             axios({
-                url:'http://localhost:8080/JSP/essa/product_inquiry_selectall.jsp',
+                url:'http://gurwlszx.cafe24.com/JSP/essa/product_inquiry_selectall.jsp',
                 method:'GET',  
                 dataType:'json'
             })
@@ -83,7 +83,7 @@ export default function ProductInquiryViewComponent (props){
         let formData = new URLSearchParams();
         formData.append("idx", view.idx);
         axios({
-          url: 'http://localhost:8080/JSP/essa/product_delete_action.jsp',
+          url: 'http://gurwlszx.cafe24.com/JSP/essa/product_delete_action.jsp',
           method: 'POST',
           data: formData, // 수정: formData를 data 속성에 전달
           params: formData

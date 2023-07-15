@@ -164,7 +164,7 @@ export default function Section7Component({쇼핑}) {
         }
     
         $.ajax({
-          url : 'http://localhost:8080/JSP/essa/zzim_post_action.jsp',
+          url : 'http://gurwlszx.cafe24.com/JSP/essa/zzim_post_action.jsp',
           type : 'POST',
           data : formData,
           success(res){

@@ -55,7 +55,7 @@ export default function ProductComponent() {
         "user_id": sessionStorage.getItem("user_id")
     }
     $.ajax({
-        url: 'http://localhost:8080/JSP/essa/basket_list_action.jsp',
+        url: 'http://gurwlszx.cafe24.com/JSP/essa/basket_list_action.jsp',
         // url :'./data/product.json',
         type: 'POST',
         data: formData,
@@ -96,7 +96,7 @@ export default function ProductComponent() {
     }
     else{
       $.ajax({
-        url:'http://localhost:8080/JSP/essa/basket_post_action.jsp',
+        url:'http://gurwlszx.cafe24.com/JSP/essa/basket_post_action.jsp',
         type:'post',
         data:formData,
         dataType:'json',
@@ -450,7 +450,7 @@ export default function ProductComponent() {
       }
   
       $.ajax({
-        url: 'http://localhost:8080/JSP/essa/zzim_post_action.jsp',
+        url: 'http://gurwlszx.cafe24.com/JSP/essa/zzim_post_action.jsp',
         type: 'POST',
         data: formData,
         dataType:'json',

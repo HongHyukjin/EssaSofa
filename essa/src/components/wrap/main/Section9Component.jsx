@@ -83,7 +83,7 @@ function Section9Component({쇼핑}) {
           }
       
           $.ajax({
-            url: 'http://localhost:8080/JSP/essa/zzim_post_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/zzim_post_action.jsp',
             type: 'POST',
             data: formData,
             dataType:'json',
@@ -167,7 +167,7 @@ function Section9Component({쇼핑}) {
         }
         else{
             $.ajax({
-                url: 'http://localhost:8080/JSP/essa/basket_post_action.jsp',
+                url: 'http://gurwlszx.cafe24.com/JSP/essa/basket_post_action.jsp',
                 type: 'post',
                 data: formData,
                 dataType: 'json',

@@ -58,7 +58,8 @@
   width: 663.891px;
   height: 750px;
   border-radius: 20px;
-  object-fit: fill;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 #section6 .container .gap .content .left-box .video-wrap .inner-wrap {
   z-index: 2;
@@ -122,7 +123,8 @@
   transform: translateY(200%);
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   cursor: pointer;
   transition: all 0.5s;
 }

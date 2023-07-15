@@ -94,7 +94,7 @@ function IdSearchComponent(props) {
         // })
 
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/idSearch_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/idSearch_action.jsp',
             type: 'post',
             data: formData,
             dataType: 'json',
@@ -130,7 +130,7 @@ function IdSearchComponent(props) {
         }
 
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/idSearch2_action.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/idSearch2_action.jsp',
             type : 'post',
             data : formData2,
             dataType: 'json',

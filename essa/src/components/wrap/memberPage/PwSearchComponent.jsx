@@ -65,7 +65,7 @@ function PwSearchComponent(props) {
         // })
 
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/pwSearch_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/pwSearch_action.jsp',
             type: 'post',
             data: formData,
             dataType: 'json',

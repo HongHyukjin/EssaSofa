@@ -28,7 +28,7 @@ function ZzimComponent(props) {
                     "product_num": Number(state.checked[i])
                 }
                 $.ajax({
-                    url : 'http://localhost:8080/JSP/essa/zzim_delete_action.jsp',
+                    url : 'http://gurwlszx.cafe24.com/JSP/essa/zzim_delete_action.jsp',
                     type : 'POST',
                     data : formData,
                     dataType : 'json',
@@ -65,7 +65,7 @@ function ZzimComponent(props) {
             };
 
             const res = await $.ajax({
-                url : 'http://localhost:8080/JSP/essa/update_getjoin_action.jsp',
+                url : 'http://gurwlszx.cafe24.com/JSP/essa/update_getjoin_action.jsp',
                 type : 'POST',
                 data : form_data,
                 dataType: 'json'
@@ -91,7 +91,7 @@ function ZzimComponent(props) {
             user_id : user_id
         }
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/zzim_select_action.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/zzim_select_action.jsp',
             type : 'POST',
             data : formData,
             dataType : 'json',
@@ -140,7 +140,7 @@ function ZzimComponent(props) {
             product_num : item.product_num
         }
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/zzim_delete_action.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/zzim_delete_action.jsp',
             type : 'POST',
             data : formData,
             dataType : 'json',

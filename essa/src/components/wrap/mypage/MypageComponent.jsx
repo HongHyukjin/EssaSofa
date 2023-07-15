@@ -21,7 +21,7 @@ function MypageComponent(props) {
             };
 
             const res = await $.ajax({
-                url : 'http://localhost:8080/JSP/essa/update_getjoin_action.jsp',
+                url : 'http://gurwlszx.cafe24.com/JSP/essa/update_getjoin_action.jsp',
                 type : 'POST',
                 data : form_data,
                 dataType: 'json'

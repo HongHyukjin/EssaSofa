@@ -111,7 +111,7 @@ function UpdateComponent(props) {
         }
 
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/update_getjoin_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/update_getjoin_action.jsp',
             type: 'POST',
             data: form_data,
             dataType: 'json',
@@ -145,7 +145,7 @@ function UpdateComponent(props) {
     const onClickSubmit = (e)=>{
         e.preventDefault();
 
-        const url = 'http://localhost:8080/JSP/essa/update_action.jsp';
+        const url = 'http://gurwlszx.cafe24.com/JSP/essa/update_action.jsp';
         const data = new URLSearchParams();
         data.append("user_id", state.아이디)
         data.append("user_pw", state.비밀번호)

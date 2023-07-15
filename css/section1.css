@@ -129,7 +129,8 @@
 #section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide2 {
   background: url("../img/sl8.jpg") no-repeat 50% 50%;

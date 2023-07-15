@@ -56,7 +56,7 @@ export default function ProductInquiryComponent (props){
 
     const getlist = async () => {
       $.ajax({
-        url:'http://localhost:8080/JSP/essa/product_inquiry_selectall.jsp',
+        url:'http://gurwlszx.cafe24.com/JSP/essa/product_inquiry_selectall.jsp',
         type:'GET',
         dataType:'JSON',
         success(res){

@@ -58,7 +58,7 @@ export default function ProductInquiryUpdateComponent (){
             "listNum" : listNum
         }
         $.ajax({
-            url : 'http://localhost:8080/JSP/essa/product_getListUpdate.jsp',
+            url : 'http://gurwlszx.cafe24.com/JSP/essa/product_getListUpdate.jsp',
             type : 'POST',
             data : formData,
             dataType : 'json',
@@ -136,7 +136,7 @@ export default function ProductInquiryUpdateComponent (){
         formData.append("write_date", state.write_date);
         console.log(formData);
         axios({
-            url:'http://localhost:8080/JSP/essa/product_update_action.jsp',
+            url:'http://gurwlszx.cafe24.com/JSP/essa/product_update_action.jsp',
             method:'post',
             data: formData,
             // params:formData

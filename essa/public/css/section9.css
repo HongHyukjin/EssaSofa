@@ -96,7 +96,8 @@
   transform: translateY(200%);
   background: rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   cursor: pointer;
 }
 #section9 .container .gap .row3 .content .left-box ul li .sec9left-product .img-box a .button-box .button {

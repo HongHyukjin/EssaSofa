@@ -32,7 +32,7 @@ export default function BasketComponent() {
             "option2": cartClickOrigin.option2
         }
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/basket_update_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/basket_update_action.jsp',
             type: 'post',
             data: formData,
             success(res) {
@@ -63,7 +63,7 @@ export default function BasketComponent() {
                 }
                 console.log(formData);
                 $.ajax({
-                    url: "http://localhost:8080/JSP/essa/basket_delete_action.jsp",
+                    url: "http://gurwlszx.cafe24.com/JSP/essa/basket_delete_action.jsp",
                     type: 'post',
                     data: formData,
                     success(res) {
@@ -195,7 +195,7 @@ export default function BasketComponent() {
             "user_id": sessionStorage.getItem("user_id")
         }
         $.ajax({
-            url: 'http://localhost:8080/JSP/essa/basket_list_action.jsp',
+            url: 'http://gurwlszx.cafe24.com/JSP/essa/basket_list_action.jsp',
             // url :'./data/product.json',
             type: 'POST',
             data: formData,

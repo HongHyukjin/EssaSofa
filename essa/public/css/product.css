@@ -336,7 +336,8 @@
   bottom: -10px;
   left: 0;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   transition: 0.3s;
 }
 #product .container .gap .content .product_list ul li .item_cont .photo_box a .item_link .inner {
