@@ -268,7 +268,7 @@ export default function Section5Component({쇼핑}) {
                         <div className="left-box">
                             <div className="left-content">
                                 <div className="left-title">
-                                    <img src="../img/section5/메인045.jpg" alt="" />
+                                    <img src="./img/section5/메인045.jpg" alt="" />
                                     <span>ESSA PET LINE</span>
                                     <p>소중한 반려견과 함께하는 소파라이프</p>
                                 </div>
@@ -290,16 +290,16 @@ export default function Section5Component({쇼핑}) {
                                                             <img src={`img/product/${item.이미지}`} alt="" />
                                                             <div className="button-box">
                                                                 <div className="button">
-                                                                    <button onClick={(e) => onClickCart(e, item.제품코드)}><img src="../img/section5/메인021.png" alt="" /></button>
-                                                                    <button onClick={(e) => onClickZzim(e, item)}><img src="../img/section5/메인022.png" alt="" /></button>
+                                                                    <button onClick={(e) => onClickCart(e, item.제품코드)}><img src="./img/section5/메인021.png" alt="" /></button>
+                                                                    <button onClick={(e) => onClickZzim(e, item)}><img src="./img/section5/메인022.png" alt="" /></button>
                                                                 </div>
                                                             </div>
                                                         </Link>
                                                     </div>
                                                     <div className="title-box">
                                                         <span>{item.제품명}</span>
-                                                        <img className='img1' src="../img/section5/메인023.jpg" alt="" />
-                                                        <img className='img2' src="../img/section5/메인026.png" alt="" />
+                                                        <img className='img1' src="./img/section5/메인023.jpg" alt="" />
+                                                        <img className='img2' src="./img/section5/메인026.png" alt="" />
                                                     </div>
                                                 </li>
                                             )

@@ -300,8 +300,8 @@ function Section9Component({쇼핑}) {
                                                                 <img className='sec9product' src={`img/product/${item.이미지}`} alt="" onMouseEnter={onMouseEnterShowBtnBox}/>
                                                                 <div className="button-box">
                                                                     <div className="button">
-                                                                        <button onClick={(e) => onClickCart(e, item.제품코드)}><img src="../img/section5/메인021.png" alt="" /></button>
-                                                                        <button onClick={(e) => onClickZzim(e, item)}><img src="../img/section5/메인022.png" alt="" /></button>
+                                                                        <button onClick={(e) => onClickCart(e, item.제품코드)}><img src="./img/section5/메인021.png" alt="" /></button>
+                                                                        <button onClick={(e) => onClickZzim(e, item)}><img src="./img/section5/메인022.png" alt="" /></button>
                                                                     </div>
                                                                 </div>
                                                             </Link>
@@ -311,8 +311,8 @@ function Section9Component({쇼핑}) {
                                                             <span className='sec9price'>{item.원가.toLocaleString('ko-KR')}원</span>
                                                             <span className='sec9price2'>{item.할인가.toLocaleString('ko-KR')}원</span>
                                                         </div>
-                                                        <img src="../img/section9/i_coupon.jpg" alt="" />
-                                                        <img src="../img/section9/product_03.png" alt="" />
+                                                        <img src="./img/section9/i_coupon.jpg" alt="" />
+                                                        <img src="./img/section9/product_03.png" alt="" />
                                                         <a href="!#">
                                                             <span class="material-symbols-outlined"></span>
                                                             <i className='xi-comment-o'></i>
@@ -447,7 +447,7 @@ function Section9Component({쇼핑}) {
                             </div>
                             <div className="right-box">
                                 <div className="sec9img-box">
-                                    <img src="../img/section9/images084.jpg" alt="" />
+                                    <img src="./img/section9/images084.jpg" alt="" />
                                     <div className="sec9title-box">
                                         <span className='sec9right1'>#박서준PICK</span>
                                         <span className='sec9right2'>뮤즈 박서준과 함께한 소파</span>

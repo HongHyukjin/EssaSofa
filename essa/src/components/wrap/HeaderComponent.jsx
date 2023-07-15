@@ -52,7 +52,7 @@ export default function HeaderComponent() {
             ...state,
             isLogin : false
         })
-        window.location.href="/";
+        window.location.href="#/메인";
     }
 
     const onClickMyPage = (e)=>{

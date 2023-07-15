@@ -144,7 +144,7 @@ function Section10Component(props) {
                                 <ul className='slide-wrap'>
                                     <li className='slide slide1'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp02.jpg" alt="" />
+                                            <img src="./img/section10/story_temp02.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>모델 주우재의 디오마레 소파</span>
@@ -153,7 +153,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide2'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp11.jpg" alt="" />
+                                            <img src="./img/section10/story_temp11.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>방송인 이지혜의 태리 소파</span>
@@ -162,7 +162,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide3'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp07.jpg" alt="" />
+                                            <img src="./img/section10/story_temp07.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>가수 백지영의 하노버 소파</span>
@@ -171,7 +171,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide4'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp08.jpg" alt="" />
+                                            <img src="./img/section10/story_temp08.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 박하나의 포르토 소파</span>
@@ -180,7 +180,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide5'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp03.jpg" alt="" />
+                                            <img src="./img/section10/story_temp03.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>가수 초아의 페이튼 소파</span>
@@ -189,7 +189,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide6'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp10.jpg" alt="" />
+                                            <img src="./img/section10/story_temp10.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>방송인 현영의 하노버 소파</span>
@@ -198,7 +198,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide7'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp12.jpg" alt="" />
+                                            <img src="./img/section10/story_temp12.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 정시아의 레반트 소파</span>
@@ -207,7 +207,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide8'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp06.jpg" alt="" />
+                                            <img src="./img/section10/story_temp06.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 이세희의 아미르 소파</span>
@@ -216,7 +216,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide9'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp01.jpg" alt="" />
+                                            <img src="./img/section10/story_temp01.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 장희령의 하바나 소파</span>
@@ -225,7 +225,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide10'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp04.jpg" alt="" />
+                                            <img src="./img/section10/story_temp04.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 임수향의 카리브 소파</span>
@@ -234,7 +234,7 @@ function Section10Component(props) {
                                     </li>
                                     <li className='slide slide11'>
                                         <a href="!#">
-                                            <img src="../img/section10/story_temp05.jpg" alt="" />
+                                            <img src="./img/section10/story_temp05.jpg" alt="" />
                                         </a>
                                         <article>
                                             <span className='cate'>배우 윤진이의 하바나 소파</span>

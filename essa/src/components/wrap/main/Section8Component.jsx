@@ -8,7 +8,7 @@ function Section8Component(props) {
                     <div className="content">
                         <div className="left-box">
                             <div className="left-title">
-                                <img src="../img/section8/images074.jpg" alt="" />
+                                <img src="./img/section8/images074.jpg" alt="" />
                                 <span>Ordinary Life with ESSA</span>
                                 <p>에싸와 함께, 아무 걱정없는 평범한 일상</p>
                             </div>
@@ -18,7 +18,7 @@ function Section8Component(props) {
                                 <ul>
                                     <li>
                                         <div className="img-box">
-                                            <img src="../img/section8/images075.jpg" alt="" />
+                                            <img src="./img/section8/images075.jpg" alt="" />
                                         </div>
                                         <div className="title-box">
                                             <span className='row1'>CELEBRITY</span>
@@ -29,7 +29,7 @@ function Section8Component(props) {
                                     </li>
                                     <li>
                                         <div className="img-box">
-                                            <img src="../img/section8/images076.jpg" alt="" />
+                                            <img src="./img/section8/images076.jpg" alt="" />
                                         </div>
                                         <div className="title-box">
                                             <span className='row1'>COLLABORATION</span>
@@ -40,7 +40,7 @@ function Section8Component(props) {
                                     </li>
                                     <li>
                                         <div className="img-box">
-                                            <img src="../img/section8/images077.jpg" alt="" />
+                                            <img src="./img/section8/images077.jpg" alt="" />
                                         </div>
                                         <div className="title-box">
                                             <span className='row1'>ESSA in ZIP</span>
@@ -51,7 +51,7 @@ function Section8Component(props) {
                                     </li>
                                     <li>
                                         <div className="img-box">
-                                            <img src="../img/section8/images078.jpg" alt="" />
+                                            <img src="./img/section8/images078.jpg" alt="" />
                                         </div>
                                         <div className="title-box">
                                             <span className='row1'>CELEBRITY</span>

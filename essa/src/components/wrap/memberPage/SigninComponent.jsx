@@ -51,7 +51,7 @@ function SigninComponent(props) {
                 if(res.result=== '1'){
                     sessionStorage.setItem('user_id', state.아이디);
 
-                    window.location.href='/';
+                    window.location.href='#/메인';
                 }
                 else if(res.result==='0'){
                     alert('비밀번호를 확인하세요')

@@ -211,8 +211,8 @@ export default function Section7Component({쇼핑}) {
                                                             <img src={`img/product/${item.이미지}`} alt="" />
                                                             <div className="button-box">
                                                                 <div className="button">
-                                                                    <button><img src="../img/section5/메인021.png" alt="" /></button>
-                                                                    <button onClick={(e) => onClickZzim(e, item)}><img src="../img/section5/메인022.png" alt="" /></button>
+                                                                    <button><img src="./img/section5/메인021.png" alt="" /></button>
+                                                                    <button onClick={(e) => onClickZzim(e, item)}><img src="./img/section5/메인022.png" alt="" /></button>
                                                                 </div>
                                                             </div>
                                                         </Link>
@@ -224,8 +224,8 @@ export default function Section7Component({쇼핑}) {
                                                             <span className='price2'>{item.할인가.toLocaleString('ko-KR')}원</span>
                                                             <span className='percent'>{item.할인율}%</span>
                                                         </div>
-                                                        <img src="../img/section7/images026.png" alt="" />
-                                                        <img src="../img/section7/images067.jpg" alt="" />
+                                                        <img src="./img/section7/images026.png" alt="" />
+                                                        <img src="./img/section7/images067.jpg" alt="" />
                                                         <a href="!#">
                                                             <span class="material-symbols-outlined"></span>
                                                             <i className='xi-comment-o'></i>
