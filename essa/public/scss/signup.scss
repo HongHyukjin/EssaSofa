@@ -1,0 +1,268 @@
+#signup {
+    width:100%;
+    padding: 73px 0;
+    .container {
+        width:100%;
+        max-width: 1600px;
+        margin: 0 auto;
+        .gap {
+            width:100%;
+            .link-box{
+                width: 100%;
+                padding: 24px 0 72px 0;
+                ul{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    li{
+                        padding: 0 0 0 12px;
+                        margin:  0 0 0 8px;
+                        font-size: 11px;
+                        color: #777;
+                        a{
+                            font-size: 11px;
+                            color: #777;
+                        }
+                        &:nth-child(2),&:nth-child(3){
+                            background: url(../img/ico_path.gif) no-repeat 0 50%;
+                        }
+                    }
+                }
+            }
+            .title {
+                width:100%;
+                padding: 10px 0 30px 0;
+                h1 {
+                    font-size: 28px;
+                    color: #333;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+            .content{
+                width: 100%;
+                max-width: 492px;
+                margin: 0 auto;
+                form{
+                    width: 100%;
+                    border-top: 1px solid #ececec;
+                    padding: 30px 0 0 0;
+                    .sub-title{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 0 17px 0;
+                        h3{
+                            font-size: 18px;
+                            color: #222222;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #333;
+                            letter-spacing: -0.6px;
+                            padding: 0 0 0 10px;
+                            background: url(../img/icon_dot_03.png) no-repeat 0 50%;
+                        }
+                    }
+                    table{
+                        width: 100%;
+                        border-collapse: collapse;
+                        tbody{
+                            width: 100%;
+                            tr{
+                                width: 100%;   
+                                th{
+                                    width: 102px;
+                                    padding: 24px 0 7px 5px;
+                                    font-size: 14px;
+                                    line-height: 1.5;
+                                    font-weight: 400;
+                                    text-align: start;
+                                    vertical-align: top;
+                                    &.important{
+                                        span{
+                                            padding: 0 0 0 10px;
+                                            background: url(../img/icon_dot_03.png) no-repeat 0 50%;
+                                        }
+                                       
+                                    }
+                                }
+                                td{
+                                    width: 390px;
+                                    padding: 7px 0;
+                                    input{
+                                        width: 380px;
+                                        height: 56px;
+                                        border: 0;
+                                        background: #f9f9f9;
+                                        outline: 1px solid transparent;
+                                        transition: all 0.3s;
+                                        padding: 0 20px;
+                                        font-size: 14px;
+                                        color: #a8a8a8;
+                                        &:focus{
+                                            outline-color: #7e9fc2;
+                                            background-color: #fff;
+                                            color: #414141;
+                                        }
+                                    }
+                                    .err{
+                                        display: none;
+                                        padding: 5px 0 0 0;
+                                        letter-spacing: -1px;
+                                        font-size: 13px;
+                                        color: #222;
+                                        line-height: 20px;
+                                        &.on{
+                                            display: block;
+                                        }
+                                    }
+                                    .possible{
+                                        padding: 5px 0 0 0;
+                                        letter-spacing: -1px;
+                                        font-size: 13px;
+                                        color: #6184b1;
+                                    }
+                                    &.addr{
+                                        padding: 0 0 40px 0;
+                                        input{
+                                            margin: 0 0 5px 0;
+                                            height: 56px;
+                                            &:first-child{
+                                                width: 230px;
+                                                margin-right:5px;
+                                            }
+                                        }
+                                        button{
+                                            width: 145px;
+                                            height: 58px;
+                                            margin: 0 0 5px 0;
+                                            background-color: #fff;
+                                            border: 1px solid #7e9fc2;
+                                            color: #717171;
+                                            font-size: 13px;
+                                            outline: 0;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    &.birth{
+                                        padding: 10px 0 50px 0;
+                                        input{
+                                            width: 100px;
+                                            height: 58px;
+                                            background-color: #fff;
+                                            border: 1px solid #7e9fc2;
+                                            margin: 0 8px 0 0;
+                                            outline: 0;
+                                            padding:  0 10px;
+                                        }
+                                        select{
+                                            width: 80px;
+                                            height: 58px;
+                                            background-color: #fff;
+                                            border: 1px solid #7e9fc2;
+                                            margin: 0 8px 0 0;
+                                            text-align: center;
+                                            color: #bbb;
+                                            font-size: 14px;
+                                            outline: 0;
+                                        }
+                                    }
+                                    label{
+                                        display: block;
+                                        font-size: 14px;
+                                        line-height: 1.5;
+                                        color: #333;
+                                        margin: 10px 0 0 0;
+                                        padding: 0 0 0 20px;
+                                        background: url(../img/radio_off_small.png) no-repeat 0 40%;
+                                       &:hover{
+                                            background-image: url(../img/radio_over_small.png);
+                                       }
+                                       &.on{
+                                            background-image: url(../img/radio_on_small.png);
+                                       }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-box{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        border-top: 1px solid #ececec;
+                        padding: 50px 0 0 0;
+                        button{
+                            width: 48%;
+                            height: 63px;
+                            border: 1px solid #7e9fc2;
+                            font-size: 18px;
+                            color: #7e9fc2;
+                            background: #fff;
+                            letter-spacing: -0.6px;
+                            cursor: pointer;
+                            &:last-child{
+                                color: #fff;
+                                background: #7e9fc2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#postCode{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .contents{
+            width: 530px;
+            height: 450px;
+            overflow: hidden;
+            background: #fff;
+            .exit{
+                width: 100%;
+                height: 50px;
+                background: #393b3f;
+                text-align: right;display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                h3{
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 18px;
+                    width: 100%;
+                    text-align: center;
+                    font-family: 'Malgun Gothic';
+                }
+                button{
+                    background: transparent;
+                    border: 0;
+                    padding: 0 30px 0 0;
+                    cursor: pointer;
+                }
+            }
+                #post{
+                    z-index: 2;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 400px;
+                    background: #f0f0f0;
+                }
+        }
+    }
+
+}

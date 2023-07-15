@@ -1,0 +1,170 @@
+#signin {
+  width: 100%;
+  height: 1000px;
+}
+#signin .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#signin .container .gap {
+  width: 492px;
+  margin: 0 554px;
+}
+#signin .container .gap .title {
+  width: 100%;
+  margin-top: 200px;
+}
+#signin .container .gap .title .title-box {
+  width: 100%;
+  text-align: center;
+}
+#signin .container .gap .title .title-box h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+  line-height: 42px;
+}
+#signin .container .gap .content {
+  display: block;
+  margin-top: 30px;
+  width: 492px;
+  height: 663.668px;
+}
+#signin .container .gap .content .member-tab ul {
+  display: flex;
+  justify-content: space-around;
+}
+#signin .container .gap .content .member-tab ul li label {
+  width: 246px;
+  height: 50px;
+  color: #414141;
+  line-height: 45px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+#signin .container .gap .content #formLogin {
+  margin-top: 30px;
+}
+#signin .container .gap .content #formLogin .member-login-box .login-input-box {
+  display: flex;
+  flex-flow: column;
+}
+#signin .container .gap .content #formLogin .member-login-box .login-input-box input {
+  width: 490px;
+  height: 58px;
+  padding: 5px 30px;
+  font-size: 12px;
+  margin: 5px 0;
+  border: 1px solid #f9f9f9;
+  background: #f9f9f9;
+  color: #979d9d;
+}
+#signin .container .gap .content #formLogin .login-chek-box {
+  margin-bottom: 20px;
+}
+#signin .container .gap .content #formLogin .login-chek-box .id-chek .form-id img {
+  width: auto;
+  height: auto;
+  margin-right: 5px;
+}
+#signin .container .gap .content #formLogin .login-chek-box .id-chek .form-id label {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#signin .container .gap .content #formLogin .login-btn-box {
+  margin-bottom: 10px;
+}
+#signin .container .gap .content #formLogin .login-btn-box .member-login-btn {
+  width: 492px;
+  height: 61px;
+  background-color: #7e9fc2;
+  border: 0;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 27px;
+}
+#signin .container .gap .content #formLogin .find-btn-box ul {
+  display: flex;
+  justify-content: flex-end;
+}
+#signin .container .gap .content #formLogin .find-btn-box ul li .btnFindId {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333;
+  letter-spacing: -1px;
+}
+#signin .container .gap .content #formLogin .find-btn-box ul li i {
+  margin: 0 10px;
+  color: #d4d4d4;
+  height: 10px;
+  line-height: 14px;
+  font-size: 14px;
+  width: 1px;
+}
+#signin .container .gap .content #formLogin .find-btn-box ul li .btnFindPw {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333;
+  letter-spacing: -1px;
+}
+#signin .container .gap .content .member-sns-login {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 492px;
+  height: 102.188px;
+  margin: 20px 0;
+}
+#signin .container .gap .content .member-sns-login a img {
+  width: auto;
+  height: auto;
+}
+#signin .container .gap .content .member-sns-login a p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 18.2px;
+  color: #333;
+  font-weight: 400;
+}
+#signin .container .gap .content .member-sns-login .kakao {
+  margin: 0 40px;
+}
+#signin .container .gap .content .signup-btn-box {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+}
+#signin .container .gap .content .signup-btn-box span {
+  text-align: center;
+}
+#signin .container .gap .content .signup-btn-box span strong {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  color: #6184b1;
+}
+#signin .container .gap .content .signup-btn-box .signup-btn {
+  cursor: pointer;
+  width: 490px;
+  height: 63px;
+  border: 1px solid #7e9fc2;
+  background: #fff;
+  padding: 17px 0;
+  font-size: 17px;
+  color: #414141;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+}

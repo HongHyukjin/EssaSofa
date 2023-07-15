@@ -1,0 +1,142 @@
+#nomember {
+  width: 100%;
+  height: 1000px;
+}
+#nomember .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#nomember .container .gap {
+  width: 492px;
+  margin: 0 554px;
+}
+#nomember .container .gap .title {
+  width: 100%;
+  margin-top: 200px;
+}
+#nomember .container .gap .title .title-box {
+  width: 100%;
+  text-align: center;
+}
+#nomember .container .gap .title .title-box h1 {
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+  line-height: 42px;
+}
+#nomember .container .gap .content {
+  display: block;
+  margin-top: 30px;
+  width: 492px;
+  height: 663.668px;
+}
+#nomember .container .gap .content .member-tab ul {
+  display: flex;
+  justify-content: space-around;
+}
+#nomember .container .gap .content .member-tab ul li label {
+  width: 246px;
+  height: 50px;
+  color: #414141;
+  line-height: 45px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+#nomember .container .gap .content #formLogin {
+  margin-top: 30px;
+}
+#nomember .container .gap .content #formLogin .member-login-box .login-input-box {
+  display: flex;
+  flex-flow: column;
+}
+#nomember .container .gap .content #formLogin .member-login-box .login-input-box input {
+  width: 490px;
+  height: 58px;
+  padding: 5px 30px;
+  font-size: 12px;
+  margin: 5px 0;
+  border: 1px solid #f9f9f9;
+  background: #f9f9f9;
+  color: #979d9d;
+}
+#nomember .container .gap .content #formLogin .login-chek-box {
+  margin-bottom: 20px;
+}
+#nomember .container .gap .content #formLogin .login-chek-box .id-chek {
+  margin-top: 10px;
+  text-align: center;
+}
+#nomember .container .gap .content #formLogin .login-chek-box .id-chek .form-id img {
+  width: auto;
+  height: auto;
+  margin-right: 5px;
+}
+#nomember .container .gap .content #formLogin .login-chek-box .id-chek .form-id .check-on {
+  color: #a8a8a8;
+  font-size: 13px;
+  line-height: 21px;
+}
+#nomember .container .gap .content #formLogin .login-btn-box {
+  margin-bottom: 10px;
+}
+#nomember .container .gap .content #formLogin .login-btn-box .member-login-btn {
+  width: 492px;
+  height: 61px;
+  background-color: #7e9fc2;
+  border: 0;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 27px;
+}
+#nomember .container .gap .content .member-sns-login {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 492px;
+  height: 102.188px;
+  margin: 20px 0;
+}
+#nomember .container .gap .content .member-sns-login a img {
+  width: auto;
+  height: auto;
+}
+#nomember .container .gap .content .member-sns-login a p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 18.2px;
+  color: #333;
+  font-weight: 400;
+}
+#nomember .container .gap .content .member-sns-login .kakao {
+  margin: 0 40px;
+}
+#nomember .container .gap .content .signup-btn-box {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+}
+#nomember .container .gap .content .signup-btn-box span {
+  text-align: center;
+}
+#nomember .container .gap .content .signup-btn-box span strong {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  color: #6184b1;
+}
+#nomember .container .gap .content .signup-btn-box .signup-btn {
+  cursor: pointer;
+  width: 490px;
+  height: 63px;
+  border: 1px solid #7e9fc2;
+  background: #fff;
+  padding: 17px 0;
+  font-size: 17px;
+  color: #414141;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 20px;
+}

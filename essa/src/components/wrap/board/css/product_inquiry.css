@@ -1,0 +1,405 @@
+#ProductInquiry {
+  width: 100%;
+  font-family: "Red Hat Display", "Pretendard", sans-serif;
+}
+#ProductInquiry .container {
+  width: 100%;
+  max-width: 1600px;
+  height: 1768px;
+  margin: 0 auto;
+}
+#ProductInquiry .container .title {
+  padding: 120px 0 80px 0;
+  text-align: center;
+}
+#ProductInquiry .container .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+#ProductInquiry .container .content {
+  margin: 0 auto;
+}
+#ProductInquiry .container .content .board_nav ul {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#ProductInquiry .container .content .board_nav ul li {
+  display: inline-block;
+}
+#ProductInquiry .container .content .board_nav ul li a {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 25px 20px 25px;
+  position: relative;
+  color: #a9a9a9;
+}
+#ProductInquiry .container .content .board_nav ul li a.on {
+  color: #000;
+  font-weight: 700;
+}
+#ProductInquiry .container .content .board_nav ul li a.on:after {
+  width: 5px;
+  top: 0;
+  opacity: 1;
+}
+#ProductInquiry .container .content .board_nav ul li a:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s;
+  background-color: #7e9fc2;
+  border-radius: 50%;
+  opacity: 0;
+}
+#ProductInquiry .container .content .board_nav ul li a:hover:after {
+  width: 5px;
+  top: 0;
+  opacity: 1;
+}
+#ProductInquiry .container .content .board_zone_cont {
+  width: 100%;
+  height: 1515px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box {
+  margin: 0 0 35px 0;
+  padding: 20px 20px 20px 30px;
+  border: 3px solid #eeeeee;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form h3 {
+  font-size: 13px;
+  font-weight: 700;
+  float: left;
+  line-height: 19.5px;
+  padding: 6px 15px 0 0;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form .date_check_list button {
+  float: left;
+  width: 54px;
+  height: 31px;
+  margin: 0 0 0 -1px;
+  color: #777777;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #d6d6d6;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form .date_check_calendar {
+  margin: 0 10px;
+  position: relative;
+  width: 320px;
+  height: 31px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form .date_check_calendar input {
+  color: rgba(51, 51, 51, 0.2);
+  border: 1px solid #d6d6d6;
+  line-height: 31px;
+  font-size: 12px;
+  margin: 0 0 0 -1px;
+  color: #777777;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #d6d6d6;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form .btn_date_check {
+  border: 1px solid #97afd3;
+  background: #97afd3;
+  text-align: center;
+  width: 98px;
+  height: 31px;
+  padding: 5px 0 0 0;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .date_check_box form .btn_date_check em {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead {
+  height: 72px;
+  padding: 24px 0;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th {
+  padding: 24px 0;
+  background: rgb(246, 246, 246);
+  font-size: 13px;
+  font-weight: 400;
+  border-collapse: collapse;
+  color: #1a1a1a;
+  line-height: 24px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(1) {
+  width: 160px;
+  height: 24px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(2) {
+  width: 240px;
+  height: 24px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(3) {
+  width: 720px;
+  height: 24px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(4) {
+  width: 160px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(5) {
+  width: 160px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td {
+  padding: 28px 0;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1a1a1a;
+  height: 50px;
+  text-align: center;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(1) {
+  width: 160px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(2) {
+  width: 240px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit {
+  text-align: left;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a strong {
+  color: #333;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img {
+  margin: 0 2px;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img:nth-child(1) {
+  width: auto;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img:nth-child(2) {
+  width: auto;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(4) {
+  text-align: center;
+}
+#ProductInquiry .container .content .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(5) {
+  text-align: center;
+}
+#ProductInquiry .container .content .board_zone_cont .btn_right_box {
+  text-align: right;
+  height: 36px;
+  padding: 50px 0 0 0;
+}
+#ProductInquiry .container .content .board_zone_cont .btn_right_box .btn_write {
+  background: #fff;
+  border: 1px solid #7e9fc2;
+  padding: 10px 15px;
+}
+#ProductInquiry .container .content .board_zone_cont .btn_right_box .btn_write a {
+  color: #6184b1;
+  font-weight: bold;
+  font-size: 14px;
+}
+#ProductInquiry .container .content2 {
+  margin: 0 auto;
+}
+#ProductInquiry .container .content2 .board_nav ul {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#ProductInquiry .container .content2 .board_nav ul li {
+  display: inline-block;
+}
+#ProductInquiry .container .content2 .board_nav ul li a {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 25px 20px 25px;
+  position: relative;
+  color: #a9a9a9;
+}
+#ProductInquiry .container .content2 .board_nav ul li a.on {
+  color: #000;
+  font-weight: 700;
+}
+#ProductInquiry .container .content2 .board_nav ul li a.on:after {
+  width: 5px;
+  top: 0;
+  opacity: 1;
+}
+#ProductInquiry .container .content2 .board_nav ul li a:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s;
+  background-color: #7e9fc2;
+  border-radius: 50%;
+  opacity: 0;
+}
+#ProductInquiry .container .content2 .board_nav ul li a:hover:after {
+  width: 5px;
+  top: 0;
+  opacity: 1;
+}
+#ProductInquiry .container .content2 .board_zone_cont {
+  width: 100%;
+  height: 1515px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box {
+  margin: 0 0 35px 0;
+  padding: 20px 20px 20px 30px;
+  border: 3px solid #eeeeee;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form h3 {
+  font-size: 13px;
+  font-weight: 700;
+  float: left;
+  line-height: 19.5px;
+  padding: 6px 15px 0 0;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form .date_check_list button {
+  float: left;
+  width: 54px;
+  height: 31px;
+  margin: 0 0 0 -1px;
+  color: #777777;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #d6d6d6;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form .date_check_calendar {
+  margin: 0 10px;
+  position: relative;
+  width: 320px;
+  height: 31px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form .date_check_calendar input {
+  color: rgba(51, 51, 51, 0.2);
+  border: 1px solid #d6d6d6;
+  line-height: 31px;
+  font-size: 12px;
+  margin: 0 0 0 -1px;
+  color: #777777;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #d6d6d6;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form .btn_date_check {
+  border: 1px solid #97afd3;
+  background: #97afd3;
+  text-align: center;
+  width: 98px;
+  height: 31px;
+  padding: 5px 0 0 0;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .date_check_box form .btn_date_check em {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead {
+  height: 72px;
+  padding: 24px 0;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th {
+  padding: 24px 0;
+  background: rgb(246, 246, 246);
+  font-size: 13px;
+  font-weight: 400;
+  border-collapse: collapse;
+  color: #1a1a1a;
+  line-height: 24px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(1) {
+  width: 160px;
+  height: 24px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(2) {
+  width: 240px;
+  height: 24px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(3) {
+  width: 720px;
+  height: 24px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(4) {
+  width: 160px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 thead th:nth-child(5) {
+  width: 160px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td {
+  padding: 28px 0;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1a1a1a;
+  height: 50px;
+  text-align: center;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(1) {
+  width: 160px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(2) {
+  width: 240px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit {
+  text-align: left;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a strong {
+  color: #333;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img {
+  margin: 0 2px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img:nth-child(1) {
+  width: auto;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td.board_tit a img:nth-child(2) {
+  width: auto;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(4) {
+  text-align: center;
+}
+#ProductInquiry .container .content2 .board_zone_cont .board_zone_list .board_list_table2 tbody td:nth-child(5) {
+  text-align: center;
+}
+#ProductInquiry .container .content2 .board_zone_cont .btn_right_box {
+  text-align: right;
+  height: 36px;
+  padding: 50px 0 0 0;
+}
+#ProductInquiry .container .content2 .board_zone_cont .btn_right_box .btn_write {
+  background: #fff;
+  border: 1px solid #7e9fc2;
+  padding: 10px 15px;
+}
+#ProductInquiry .container .content2 .board_zone_cont .btn_right_box .btn_write a {
+  color: #6184b1;
+  font-weight: bold;
+  font-size: 14px;
+}

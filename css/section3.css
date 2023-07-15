@@ -1,0 +1,184 @@
+#section3 {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#section3 .container {
+  width: 100%;
+}
+#section3 .container .gap {
+  width: 100%;
+}
+#section3 .container .gap .content {
+  width: 100%;
+}
+#section3 .container .gap .content .top {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  background: #93aec9;
+  height: 131px;
+  margin-bottom: 120px;
+  opacity: 0;
+}
+#section3 .container .gap .content .top .slide-container {
+  width: 100%;
+}
+#section3 .container .gap .content .top .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#section3 .container .gap .content .top .slide-container .slide-view .slide-wrap {
+  width: 300%;
+  display: flex;
+  position: relative;
+}
+#section3 .container .gap .content .top .slide-container .slide-view .slide-wrap .slide {
+  z-index: 5;
+  width: 33.333%;
+  padding: 38px 0;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+#section3 .container .gap .content .top .slide-container .slide-view .slide-wrap .slide a {
+  position: relative;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1;
+  left: 373px;
+  pointer-events: none;
+}
+#section3 .container .gap .content .top .slide-container .slide-view .slide-wrap .slide p {
+  position: relative;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 1;
+  left: 373px;
+  margin-top: 10px;
+}
+#section3 .container .gap .content .top .slide-container .slide-view .slide-wrap .slide img {
+  position: absolute;
+  left: 63%;
+  bottom: 0;
+  height: 130px;
+  pointer-events: none;
+}
+#section3 .container .gap .content .top .pagenation {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  bottom: 8px;
+  text-align: center;
+}
+#section3 .container .gap .content .top .pagenation .pagenation-bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.2;
+  background: #000;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 0 4px;
+  transition: 0.3s;
+}
+#section3 .container .gap .content .top .pagenation .pagenation-bullet.on {
+  width: 17px;
+  background: #fff;
+  opacity: 1;
+}
+@keyframes top_ani {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+#section3 .container .gap .content .bottom {
+  width: 100%;
+  margin-bottom: 160px;
+}
+#section3 .container .gap .content .bottom ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 230px;
+  margin-top: 120px;
+}
+#section3 .container .gap .content .bottom ul li {
+  width: 154px;
+  height: 154px;
+}
+#section3 .container .gap .content .bottom ul li > a {
+  position: relative;
+}
+#section3 .container .gap .content .bottom ul li > a > span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #5c5c5c;
+  line-height: 1;
+  font-weight: 500;
+}
+#section3 .container .gap .content .bottom ul li > a .round::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+#section3 .container .gap .content .bottom ul li > a .round.on {
+  position: relative;
+  border-radius: 50%;
+  padding: 6px;
+  background-image: linear-gradient(to left top, #d85995 20%, #9f73b8, #6677bf 80%);
+}
+#section3 .container .gap .content .bottom ul li > a .round img {
+  position: relative;
+  z-index: 2;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+#section3 .container .gap .content .bottom ul li .tit {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #5c5c5c;
+  line-height: 1;
+  font-weight: 500;
+  margin-top: 7px;
+}
+#section3 .container .gap .content .bottom ul li:nth-child(1) {
+  opacity: 0;
+}
+#section3 .container .gap .content .bottom ul li:nth-child(2) {
+  opacity: 0;
+}
+#section3 .container .gap .content .bottom ul li:nth-child(3) {
+  opacity: 0;
+}
+#section3 .container .gap .content .bottom ul li:nth-child(4) {
+  opacity: 0;
+}
+@keyframes bottom_ani {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}

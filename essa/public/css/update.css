@@ -1,0 +1,154 @@
+#update {
+  width: 100%;
+}
+#update .container {
+  width: 100%;
+  max-width: 1752px;
+  padding: 0 76px;
+  margin: 0 auto;
+  height: 1600px;
+}
+#update .container .gap {
+  width: 100%;
+}
+#update .container .gap .content {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+}
+#update .container .gap .content .left-box {
+  width: 200px;
+}
+#update .container .gap .content .left-box .sub-menu-box h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+#update .container .gap .content .left-box .sub-menu-box .sub-menu-mypage {
+  margin-top: 43px;
+}
+#update .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0;
+  color: #333;
+}
+#update .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit .sub-menu-detail .detail-tit {
+  font-size: 15px;
+  font-weight: 300;
+  color: #a8a8a8;
+  line-height: 22.5px;
+  padding: 8px 0;
+}
+#update .container .gap .content .right-box {
+  width: calc(100% - 240px);
+  padding-left: 40px;
+}
+#update .container .gap .content .right-box .mypage-update .update-tit {
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+#update .container .gap .content .right-box .mypage-update .update-tit h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  line-height: 27px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 17px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit span {
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf {
+  border: 1px solid #dbdbdb;
+  width: 1330px;
+  height: 775px;
+  display: block;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table {
+  display: table;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody {
+  display: table-row-group;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr {
+  height: 110px;
+  text-align: left;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr th {
+  background-color: #f9f9f9;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr th span {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td input {
+  height: 50px;
+  width: 300px;
+  background: #f9f9f9;
+  border: 0;
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 21px;
+  padding-left: 25px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td .member-birth:nth-child(1) {
+  margin-left: 50px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td .member-birth .chosen-single {
+  height: 50px;
+  text-align: center;
+  color: #999;
+  border: 1px solid #7e9fc2;
+  margin-right: 10px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box button {
+  width: 243px;
+  height: 63px;
+  padding: 17px 0;
+  margin-right: 10px;
+  background: #fff;
+  color: #7e9fc2;
+  border: 1px solid #7e9fc2;
+  font-size: 18px;
+}
+#update .container .gap .content .right-box .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box .update-btn {
+  width: 243px;
+  height: 63px;
+  padding: 17px 0;
+  margin-right: 10px;
+  background: #7e9fc2;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+}

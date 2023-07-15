@@ -1,0 +1,294 @@
+#productDetail {
+  width: 100%;
+  padding: 73px 0 80px 0;
+  font-family: "Pretendard";
+}
+#productDetail .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#productDetail .container .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+}
+#productDetail .container .content .item_photo {
+  width: 50%;
+}
+#productDetail .container .content .item_photo img {
+  width: 640px;
+}
+#productDetail .container .content .item_info {
+  width: 560px;
+}
+#productDetail .container .content .item_info .tit {
+  width: 100%;
+  padding: 0 0 24px 0;
+  border-bottom: 2px solid #1a1a1a;
+}
+#productDetail .container .content .item_info .tit h2 {
+  color: rgb(26, 26, 26);
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 0 8px 0;
+  line-height: 32px;
+  font-family: "Pretendard";
+}
+#productDetail .container .content .item_info .tit h3 {
+  color: #8a8a8a;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  font-family: "Pretendard";
+}
+#productDetail .container .content .item_info .price {
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#productDetail .container .content .item_info .price .sale_per {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #6184b1;
+}
+#productDetail .container .content .item_info .price .sale_per::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #ddd;
+  margin: 0 15px;
+}
+#productDetail .container .content .item_info .price .sale_price {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+#productDetail .container .content .item_info .price .sale_price::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #ddd;
+  margin: 0 15px;
+}
+#productDetail .container .content .item_info .price .origin_price {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #bbb;
+  text-decoration: line-through;
+}
+#productDetail .container .content .item_info .price .cardinfo {
+  padding: 0 0 0 70px;
+}
+#productDetail .container .content .item_info .price .cardinfo button {
+  font-size: 13px;
+  padding: 3px 8px;
+  color: #000;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-family: "Pretendard";
+  line-height: 19.5px;
+}
+#productDetail .container .content .item_info .price .cardinfo a {
+  margin: 0 0 0 10px;
+}
+#productDetail .container .content .item_info .item_choice {
+  width: 100%;
+  padding: 20px 0;
+}
+#productDetail .container .content .item_info .item_choice .item_choice_option dl {
+  display: flex;
+  padding: 10px 0;
+}
+#productDetail .container .content .item_info .item_choice .item_choice_option dl dt {
+  width: 160px;
+  padding: 0 20px 0 0;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+#productDetail .container .content .item_info .item_choice .item_choice_option dl dd {
+  width: 400px;
+}
+#productDetail .container .content .item_info .item_choice .item_choice_option dl dd select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ddd;
+  outline: 0;
+  padding: 0 10px;
+  color: #717171;
+}
+#productDetail .container .content .item_info .banner {
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+#productDetail .container .content .item_info .banner a img {
+  width: 100%;
+}
+#productDetail .container .content .item_info .goods-box {
+  width: 100%;
+}
+#productDetail .container .content .item_info .goods-box table {
+  width: 100%;
+  background: #f5f5f5;
+  border-collapse: collapse;
+  border-bottom: 1px solid #999999;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr {
+  width: 100%;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td {
+  padding: 30px 0;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(1) {
+  padding-left: 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  font-family: "Pretendard";
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(2) .count {
+  display: flex;
+  padding: 0 17px;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(2) .count input {
+  width: 43px;
+  padding: 0 5px;
+  height: 33px;
+  border: 1px solid #ccc;
+  color: #3f3f3f;
+  font-size: 12px;
+  line-height: 31px;
+  outline: 0;
+  text-align: center;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(2) .count span {
+  display: block;
+  width: 23px;
+  margin: 0 0 0 -1px;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(2) .count span .up {
+  width: 100%;
+  height: 17px;
+  border: 0;
+  background: url(../img/product/btn_count_up.png) no-repeat 50% 50%;
+  cursor: pointer;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(2) .count span .down {
+  width: 100%;
+  height: 17px;
+  border: 0;
+  background: url(../img/product/btn_count_down.png) no-repeat 50% 50%;
+  margin: -1px 0 0 0;
+  cursor: pointer;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(3) {
+  width: 112px;
+  color: #333;
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.5;
+  font-weight: 700;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(4) {
+  width: 30px;
+  text-align: center;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(4) button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+#productDetail .container .content .item_info .goods-box table tbody tr td:nth-child(4) button img {
+  width: auto;
+}
+#productDetail .container .content .item_info .total {
+  width: 100%;
+  padding: 20px 0 0 0;
+  text-align: right;
+}
+#productDetail .container .content .item_info .total .row1 {
+  padding: 0 0 16px 0;
+}
+#productDetail .container .content .item_info .total .row1 h5 {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  font-family: "Pretendard";
+  padding: 0 0 5px 0;
+}
+#productDetail .container .content .item_info .total .row1 h5 span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+#productDetail .container .content .item_info .total .row1 h6 {
+  padding: 0 0 5px 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  font-family: "Pretendard";
+  padding: 0 0 5px 0;
+}
+#productDetail .container .content .item_info .total .row1 h6 span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+  color: #999;
+}
+#productDetail .container .content .item_info .total .row2 {
+  border-top: 1px solid #ededed;
+  padding: 10px 0 5px 0;
+}
+#productDetail .container .content .item_info .total .row2 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#productDetail .container .content .item_info .total .row2 h3 span {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #1a1a1a;
+  padding: 0 0 5px 10px;
+}
+#productDetail .container .content .item_info .btn-box {
+  width: 100%;
+  padding: 32px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+#productDetail .container .content .item_info .btn-box button {
+  width: 228px;
+  height: 72px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#productDetail .container .content .item_info .btn-box button.heart {
+  width: 72px;
+}
+#productDetail .container .content .item_info .btn-box button.buy {
+  background: #7e9fc2;
+  color: #fff;
+}

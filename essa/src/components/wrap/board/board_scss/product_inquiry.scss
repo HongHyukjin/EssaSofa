@@ -1,0 +1,435 @@
+#ProductInquiry {
+    width: 100%;
+    font-family: 'Red Hat Display','Pretendard',sans-serif;
+    .container {
+        width: 100%;
+        max-width: 1600px;
+        height: 1768px;
+        margin: 0 auto;
+            .title {
+                padding: 120px 0 80px 0;
+                text-align: center;
+                    h2 {
+                        font-size: 32px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+            }
+            .content {
+                margin: 0 auto;
+                .board_nav {
+                    ul {
+                        text-align: center;
+                        margin-bottom: 50px;
+                        li {
+                            display: inline-block;
+                            a {
+                                display: block;
+                                font-size: 18px;
+                                font-weight: 700;
+                                padding: 12px 25px 20px 25px;
+                                position: relative;
+                                color: #a9a9a9;
+                                
+                                &.on {
+                                  color: #000;
+                                  font-weight: 700;
+                                  
+                                  &:after {
+                                    width: 5px;
+                                    top: 0;
+                                    opacity: 1;
+                                  }
+                                }
+                                
+                                &:after {
+                                  content: '';
+                                  display: block;
+                                  width: 5px;
+                                  height: 5px;
+                                  position: absolute;
+                                  top: 5px;
+                                  left: 50%;
+                                  transform: translateX(-50%);
+                                  transition: all 0.3s;
+                                  background-color: #7e9fc2;
+                                  border-radius: 50%;
+                                  opacity: 0;
+                                }
+                                
+                                &:hover:after {
+                                  width: 5px;
+                                  top: 0;
+                                  opacity: 1;
+                                }
+                              }
+                           
+                        }
+                    }
+                }
+                .board_zone_cont {
+                    width: 100%;
+                    height: 1515px;
+                    .board_zone_list {
+                        .date_check_box {
+                            margin: 0 0 35px 0;
+                            padding: 20px 20px 20px 30px;
+                            border: 3px solid #eeeeee;
+                            form {
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                h3 {
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                    float: left;
+                                    line-height: 19.5px;
+                                    padding: 6px 15px 0  0;
+                                }
+                                .date_check_list {
+                                    button {
+                                        float: left;
+                                        width: 54px;
+                                        height: 31px;
+                                        margin: 0 0 0 -1px;
+                                        color: #777777;
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        border: 1px solid #d6d6d6;
+                                    }
+                                }
+                                .date_check_calendar {
+                                    margin: 0 10px;
+                                    position: relative;
+                                    width: 320px;
+                                    height: 31px;
+                                    input{
+                                        
+                                        color: #3333;
+                                        border: 1px solid #d6d6d6;
+                                        line-height:31px;
+                                        font-size: 12px;
+                                        margin: 0 0 0 -1px;
+                                        color: #777777;
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        border: 1px solid #d6d6d6;
+                                    }
+                                }
+                                .btn_date_check {
+                                    border: 1px solid #97afd3;
+                                    background: #97afd3;
+                                    text-align: center;
+                                    width: 98px;
+                                    height: 31px;
+                                    padding: 5px 0 0 0;
+                                    em {
+                                        font-size: 13px;
+                                        font-weight: bold;
+                                        color: #fff;
+                                       
+                                    }
+                                }
+                            }
+                        }
+                            
+                        .board_list_table2 {
+                            width: 100%;
+                            border-collapse: collapse;
+                            thead {
+                                height: 72px;
+                                padding: 24px 0;
+                                th {
+                                    padding: 24px 0;
+                                    background: rgb(246,246,246);
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    border-collapse: collapse;
+                                    color: #1a1a1a;
+                                    line-height: 24px;
+                                    &:nth-child(1){width:160px; height: 24px;}
+                                    &:nth-child(2){width:240px; height: 24px;}
+                                    &:nth-child(3){width:720px; height: 24px;}
+                                    &:nth-child(4){width:160px;}
+                                    &:nth-child(5){width:160px;}
+                                }
+                            }
+                            tbody {
+                               
+                                td {
+                                    padding: 28px 0;
+                                    border-bottom: 1px solid #eeeeee;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #1a1a1a;
+                                    height: 50px;
+                                    text-align: center;
+                                    &:nth-child(1){
+                                        width: 160px;
+                                       
+                                    }
+                                    &:nth-child(2){
+                                        width: 240px;
+                                       
+                                        a {
+                                            strong {
+
+                                            }
+                                        }
+                                    }
+                                    
+                                    &.board_tit {
+                                        text-align: left;
+                                        a {
+                                            strong {
+                                                color: #333;
+                                            }
+                                            img {
+                                                margin: 0 2px;
+                                                &:nth-child(1){width:auto;}
+                                                &:nth-child(2){width: auto;}
+                                            }
+                                        }
+                                    }
+                                    &:nth-child(4){
+                                        text-align: center;
+                                    }
+                                    &:nth-child(5){
+                                        text-align: center;
+                                    }
+                                }
+
+                               
+                            }
+                        }
+                        
+                         
+                    }
+                    .btn_right_box {
+                        text-align: right;
+                        height: 36px;
+                        padding: 50px 0 0 0;
+                        .btn_write{
+                            background: #fff;
+                            border: 1px solid #7e9fc2;
+                            padding: 10px 15px;
+                            a {
+                                color: #6184b1;
+                                font-weight: bold;
+                                font-size: 14px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .content2 {
+                margin: 0 auto;
+                .board_nav {
+                    ul {
+                        text-align: center;
+                        margin-bottom: 50px;
+                        li {
+                            display: inline-block;
+                            a {
+                                display: block;
+                                font-size: 18px;
+                                font-weight: 700;
+                                padding: 12px 25px 20px 25px;
+                                position: relative;
+                                color: #a9a9a9;
+                                
+                                &.on {
+                                  color: #000;
+                                  font-weight: 700;
+                                  
+                                  &:after {
+                                    width: 5px;
+                                    top: 0;
+                                    opacity: 1;
+                                  }
+                                }
+                                
+                                &:after {
+                                  content: '';
+                                  display: block;
+                                  width: 5px;
+                                  height: 5px;
+                                  position: absolute;
+                                  top: 5px;
+                                  left: 50%;
+                                  transform: translateX(-50%);
+                                  transition: all 0.3s;
+                                  background-color: #7e9fc2;
+                                  border-radius: 50%;
+                                  opacity: 0;
+                                }
+                                
+                                &:hover:after {
+                                  width: 5px;
+                                  top: 0;
+                                  opacity: 1;
+                                }
+                              }
+                           
+                        }
+                    }
+                }
+                .board_zone_cont {
+                    width: 100%;
+                    height: 1515px;
+                    .board_zone_list {
+                        .date_check_box {
+                            margin: 0 0 35px 0;
+                            padding: 20px 20px 20px 30px;
+                            border: 3px solid #eeeeee;
+                            form {
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                h3 {
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                    float: left;
+                                    line-height: 19.5px;
+                                    padding: 6px 15px 0  0;
+                                }
+                                .date_check_list {
+                                    button {
+                                        float: left;
+                                        width: 54px;
+                                        height: 31px;
+                                        margin: 0 0 0 -1px;
+                                        color: #777777;
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        border: 1px solid #d6d6d6;
+                                    }
+                                }
+                                .date_check_calendar {
+                                    margin: 0 10px;
+                                    position: relative;
+                                    width: 320px;
+                                    height: 31px;
+                                    input{
+                                        
+                                        color: #3333;
+                                        border: 1px solid #d6d6d6;
+                                        line-height:31px;
+                                        font-size: 12px;
+                                        margin: 0 0 0 -1px;
+                                        color: #777777;
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        border: 1px solid #d6d6d6;
+                                    }
+                                }
+                                .btn_date_check {
+                                    border: 1px solid #97afd3;
+                                    background: #97afd3;
+                                    text-align: center;
+                                    width: 98px;
+                                    height: 31px;
+                                    padding: 5px 0 0 0;
+                                    em {
+                                        font-size: 13px;
+                                        font-weight: bold;
+                                        color: #fff;
+                                       
+                                    }
+                                }
+                            }
+                        }
+                            
+                        .board_list_table2 {
+                            width: 100%;
+                            border-collapse: collapse;
+                            thead {
+                                height: 72px;
+                                padding: 24px 0;
+                                th {
+                                    padding: 24px 0;
+                                    background: rgb(246,246,246);
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    border-collapse: collapse;
+                                    color: #1a1a1a;
+                                    line-height: 24px;
+                                    &:nth-child(1){width:160px; height: 24px;}
+                                    &:nth-child(2){width:240px; height: 24px;}
+                                    &:nth-child(3){width:720px; height: 24px;}
+                                    &:nth-child(4){width:160px;}
+                                    &:nth-child(5){width:160px;}
+                                }
+                            }
+                            tbody {
+                               
+                                td {
+                                    padding: 28px 0;
+                                    border-bottom: 1px solid #eeeeee;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #1a1a1a;
+                                    height: 50px;
+                                    text-align: center;
+                                    &:nth-child(1){
+                                        width: 160px;
+                                       
+                                    }
+                                    &:nth-child(2){
+                                        width: 240px;
+                                       
+                                        a {
+                                            strong {
+
+                                            }
+                                        }
+                                    }
+                                    
+                                    &.board_tit {
+                                        text-align: left;
+                                        a {
+                                            strong {
+                                                color: #333;
+                                            }
+                                            img {
+                                                margin: 0 2px;
+                                                &:nth-child(1){width:auto;}
+                                                &:nth-child(2){width: auto;}
+                                            }
+                                        }
+                                    }
+                                    &:nth-child(4){
+                                        text-align: center;
+                                    }
+                                    &:nth-child(5){
+                                        text-align: center;
+                                    }
+                                }
+
+                               
+                            }
+                        }
+                        
+                         
+                    }
+                    .btn_right_box {
+                        text-align: right;
+                        height: 36px;
+                        padding: 50px 0 0 0;
+                        .btn_write{
+                            background: #fff;
+                            border: 1px solid #7e9fc2;
+                            padding: 10px 15px;
+                            a {
+                                color: #6184b1;
+                                font-weight: bold;
+                                font-size: 14px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+    }
+}

@@ -1,0 +1,161 @@
+#section5 {
+    width:100%;
+    margin:0 auto;
+    .container {
+        width:100%;
+        .gap {
+            width:100%;
+            .content {
+                width:100%;
+                display:flex;
+                .left-box  {
+                    width:50%;
+                    position: sticky;
+                    top:0px;
+                    height:100vh;
+                    >.left-content {
+                        .left-title {
+                            position: relative;
+                            >img {
+                                z-index: -1;
+                                position: absolute;
+                                width:951.500px;
+                                height:969px;
+                                top:0;
+                                left:0;
+                            }
+                            >span {
+                                position: absolute;
+                                top:800px;
+                                left:70px;
+                                font-size: 52px;
+                                color:#fff;
+                                letter-spacing: 0.7px;
+                                font-weight: 500;
+                                line-height: 1;
+                            }
+                            p {
+                                position: absolute;
+                                font-size: 28px;
+                                font-weight: 200;
+                                color:#fff;
+                                line-height: 1.2;
+                                top:870px;
+                                left:70px;
+                            }
+                        }
+                    }
+                }
+                .right-box {
+                    background-color: #f1eae2;
+                    width:50%;
+                    height:auto;
+                    >.right-title {
+                        max-width: 761.188px;
+                        
+                        margin:180px auto 100px auto;
+                        display:flex;
+                        justify-content: space-between;
+                        h2 {
+                            position: relative;
+                            font-size: 42px;
+                            font-weight:400;
+                            color:#1a1a1a;
+                            letter-spacing: -0.5px;
+                            line-height: 1;
+                            i {
+                                position: absolute;
+                                top:-13px;
+                                right:-10px;
+                                color: #93aeca;
+                            }
+                        }
+                        >span {
+                            margin-top:20px;
+                            font-size: 14px;
+                            color:#a5a5a5;
+                            border-bottom: 1px solid #a5a5a5;
+                            padding-bottom: 1px;
+
+                        }
+                    }
+                    .right-content {
+                        max-width: 770.188px;
+                        margin:0 auto;
+                        ul {
+                            display:flex;
+                            flex-flow: row wrap;
+                            li {
+                                width:50%;
+                                height:400px;
+                                padding: 0 11.578px;
+
+                                    .img-box {
+                                        position: relative;
+                                        cursor: pointer;
+                                        overflow: hidden;
+                                        img {
+                                            width:363.141px;
+                                            height:259.641px;
+                                        }
+                                        .button-box {
+                                            opacity: 0;
+                                            width:100%;
+                                            position: absolute;
+                                            bottom:15px;
+                                            left:0;
+                                            transform: translateY(200%);
+                                            background: rgba(255,255,255,0.5);
+                                            transition: all 0.3s;
+                                            backdrop-filter: blur(4px);
+                                            cursor: pointer;
+                                            transition: all 0.5s;
+                                            .button {
+                                                display:flex;
+                                                justify-content: space-around;
+                                                button {
+                                                    background: none;
+                                                    border:0;
+                                                    img {
+                                                        width:25px;
+                                                        height:24px;
+
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .title-box {
+                                        position: relative;
+                                        width:341.141px;
+                                        height:54.234px;
+                                        padding: 20px 10px 0 10px;
+                                        span {
+                                            font-family: 'Pretendard';
+                                            font-size:16px;
+                                            color:#1e1e1e;
+                                            font-weight: 600;
+                                            letter-spacing: -1.5px;
+                                            line-height: 1.2;
+                                            padding : 0 0 8px 0;
+                                        }
+                                        .img1 {
+                                            position: absolute;
+                                            top:50px;
+                                            left:10px;
+                                        }
+                                        .img2 {
+                                            position: absolute;
+                                            top:50px;
+                                            left:80px;
+                                        }
+                                    }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

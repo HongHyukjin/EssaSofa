@@ -1,0 +1,452 @@
+#header{
+    width: 100%;
+    height: 73px;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transition: all 0.6s;
+    .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .gap{
+            width: 100%;
+            height: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo{
+                width: 10%;
+                a{
+                    svg{
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .col{
+                height: 100%;
+                >ul{
+                    height: 100%;
+                    >li{
+                        height: 100%;
+                        >a{
+                            height: 100%;
+                        }
+                        .sub{
+                            position: absolute;
+                            display: none;
+                            top: 73px;
+                            left: 0;
+                            width: 100%;
+                            padding: 40px 0;
+                            background: #f5f2ed;
+                            border-top: 1px solid #ece8e5;
+                            .container{
+                                display: flex;
+                                width: 100%;
+                                max-width: 1600px;
+                                margin: 0 auto;
+                                .col1{
+                                    width: 140px;
+                                    margin: 0 0 0 190px;
+                                    a{
+                                        color: #000;
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                    }
+                                }
+                                .col2,.col3{
+                                    width: 205px;
+                                    margin: 0 80px 0 0;
+                                    >ul{
+                                        width: 100%;
+                                        display: flex;
+                                        padding: 0 0 40px 0;
+                                        >li{
+                                          width: 50%;
+                                            >a{
+                                                color: #000;
+                                                position: relative;
+                                                font-weight: 600;
+                                                font-size: 16px;
+                                                .plus{
+                                                    &::before{
+                                                        content: '+';
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        right: -13px;
+                                                        margin: -8px 0 0 0 ;
+                                                        font-size: 16px;
+                                                        color: #6184b1;
+                                                        font-weight: 16px;
+                                                    }
+                                                }
+                                            }
+                                            >ul{
+                                                margin: -5px 0 0 0;
+                                                >li{
+                                                    display: flex;
+                                                    height: 28px;
+                                                    position: relative;
+                                                    >a{
+                                                        height: 100%;
+                                                        display: block;
+                                                        position: relative;
+                                                        color: #767571;
+                                                        font-size: 16px;
+                                                        line-height: 180%;
+                                                        font-weight: 400;
+                                                        display: block;
+                                                        &:hover{
+                                                            span{
+                                                                opacity: 1;
+                                                            }
+                                                        }                                           
+                                                        span{
+                                                            position: absolute;
+                                                            opacity: 0;
+                                                            padding: 5px 8px;
+                                                            top: 0;
+                                                            left: 150%;
+                                                            background: #93aeca;
+                                                            color: #fff;
+                                                            border-radius: 5px;
+                                                            font-size: 16px;
+                                                            font-weight: 400;
+                                                            line-height: 100%;
+                                                            transition: all 0.3s;
+                                                            &.long{
+                                                                left: 120%;
+                                                            }
+                                                            &::after{
+                                                                content: '';
+                                                                position: absolute;
+                                                                width: 8px;
+                                                                height: 8px;
+                                                                background: #93aeca;
+                                                                top: 50%;
+                                                                margin: -4px 0 0 0;
+                                                                left: -4px;
+                                                                transform: rotate(45deg);
+
+                                                            }
+                                                        }
+                                                    }
+                                          
+                                                }
+                                            }
+
+                                        }
+                                    }
+                                }
+                                .col4{
+                                    width: 510px;
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    >ul{
+                                        >li{
+                                            
+                                            a{
+                                                display: block;
+                                                margin: 0 0 20px 0;
+                                                img{
+                                                    border-radius: 15px;
+                                                }
+                                            }
+                                            p{
+                                                color: #000;
+                                                font-size: 15px;
+                                                font-weight: 500;
+                                                line-height: 21px;
+                                            }
+                                            span{
+                                                color: #000;
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                line-height: 21px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .sub2-col1{
+                                    padding: 0 0 0 310px;
+                                    >ul{
+                                        >li{
+                                            line-height: 21px;
+                                            margin: 0 0 10px 0;
+                                            a{
+                                                color: #000;
+                                                font-weight: 600;
+                                                font-size: 16px;
+                                                line-height: 28px;
+                                                letter-spacing: -0.5px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .sub3-col1{
+                                    display: flex;
+                                    width: 100%;
+                                    justify-content: flex-end;
+                                    >ul{
+                                        width: 20%;
+                                        >li{
+                                            line-height: 21px;
+                                            margin: 0 0 10px 0;
+                                            a{
+                                                color: #000;
+                                                font-weight: 600;
+                                                font-size: 16px;
+                                                line-height: 28px;
+                                                letter-spacing: -0.5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &.col1{
+                    width: 48%;
+                    >ul{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        >li{
+                            >a{
+                                position: relative;
+                                display: block;
+                                color: #fff;
+                                margin: 0 24px;
+                                display: flex;
+                                align-items: center;
+                                letter-spacing: -0.5px;
+                                h3{
+                                    position: relative;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    &.dot{
+                                        &::after{
+                                            content: '';
+                                            position: absolute;
+                                            top: -3px;
+                                            right: -7px;
+                                            width: 4px;
+                                            height: 4px;
+                                            background: rgb(126, 159, 194);
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -10px;
+                                        left: 50%;
+                                        width: 0;
+                                        height: 2px;
+                                        background: #7e9fc2;
+                                        transform: translateX(-50%);
+                                        transition: all 0.3s;
+                                    }
+                                    &:hover{
+                                        &::before{
+                                            width: 100%;
+                                         
+                                        }
+                                    }
+                                }
+           
+                            }
+                            &:last-child{
+                                a{
+                                    color: rgb(151, 175, 211);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.col2{
+                    width: 32%;
+                    >ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        >li{
+                            >a{
+                               display: block;
+                                color: #fff;
+                                margin: 0 24px;
+                                display: flex;
+                                align-items: center;
+                                letter-spacing: -0.5px;
+                                h3{
+                                    position: relative;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    &.dot{
+                                        &::after{
+                                            content: '';
+                                            position: absolute;
+                                            top: -3px;
+                                            right: -7px;
+                                            width: 4px;
+                                            height: 4px;
+                                            background: rgb(126, 159, 194);
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        bottom: -10px;
+                                        left: 50%;
+                                        width: 0;
+                                        height: 2px;
+                                        background: #7e9fc2;
+                                        transform: translateX(-50%);
+                                        transition: all 0.3s;
+                                    }
+                                    &:hover{
+                                        &::before{
+                                            width: 100%;
+                                         
+                                        }
+                              
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                &.col3{
+                    width: 10%;  
+                    >ul{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        >li{
+                            width: 100%;
+                            >a{
+                                position: relative;
+                                margin: 0 12px;
+                                display: flex;
+                                align-items: center;
+                                span{
+                                    position: absolute;
+                                    display: block;
+                                    top: 50%;
+                                    left: 50%;
+                                    font-size: 11px;
+                                    line-height: 16px;
+                                    font-weight: 800;
+                                    color: #fff;
+                                    margin: -5px 0 0 -3px;
+                                }
+                            }
+                            &.sub-page{
+                                position: relative;
+                                .mypage{
+                                    width: 232px;
+                                    top: 73px;
+                                    left: 0;
+                                    padding: 0;
+                                    .container-my{
+                                        width: 100%;
+                                        display: block;
+                                        div{
+                                            padding: 12px 24px;
+                                            border-top: 1px solid #ededed;
+                                            background: #fff;
+                                            >a{
+                                                color: #6a6a6a;
+                                                font-size: 14px;
+                                                line-height: 24px;
+                                                &:hover{
+                                                    color: #1a1a1a;
+                                                }
+                                            }
+                                            &.one{
+                                                width: 100%;
+                                                border: 0;
+                                                background: #f5f5f5;
+                                            }
+                                            &.two{
+                                                width: 100%;
+                                                >ul{
+                                                    >li{
+                                                        padding: 4px 0;
+                                                        a{
+                                                            color: #6a6a6a;
+                                                            font-size: 14px;
+                                                            line-height: 24px;
+                                                            &:hover{
+                                                                color: #1a1a1a;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.three{
+                                                width: 100%;
+                                            }
+                                            &.four{
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+
+        }
+    }
+    &:hover{
+        background: #f5f2ed;
+        .container{
+            .gap{
+                .logo{
+                    a{
+                        svg{
+                            fill:#000;
+                        }
+                    }
+                }
+                .col{
+                    ul{
+                        li{
+                            a{
+                                color: #000;
+                                &.pet{
+                                    color: rgb(151, 175, 211);
+                                }
+                                svg{
+                                    path,rect{
+                                        stroke: #000;
+                                    }
+                                   
+                                }
+                                span{
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

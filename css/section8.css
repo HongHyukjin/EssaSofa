@@ -1,0 +1,102 @@
+#section8 {
+  width: 100%;
+}
+#section8 .container {
+  width: 100%;
+}
+#section8 .container .gap {
+  width: 100%;
+}
+#section8 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section8 .container .gap .content .left-box {
+  width: 62%;
+  position: sticky;
+  top: 0px;
+  height: 111.5vh;
+}
+#section8 .container .gap .content .left-box .left-title {
+  width: 100%;
+  position: relative;
+}
+#section8 .container .gap .content .left-box .left-title img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 1179.86px;
+  height: 1080px;
+}
+#section8 .container .gap .content .left-box .left-title span {
+  position: absolute;
+  top: 730px;
+  left: 130px;
+  font-size: 52px;
+  color: #fff;
+  letter-spacing: -1px;
+  font-weight: 400;
+  line-height: 1;
+}
+#section8 .container .gap .content .left-box .left-title p {
+  position: absolute;
+  top: 800px;
+  left: 130px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 39.2px;
+}
+#section8 .container .gap .content .right-box {
+  width: 38%;
+  background-color: #1a2c3b;
+  height: 3050px;
+}
+#section8 .container .gap .content .right-box .right-content {
+  margin: 0 auto;
+  max-width: 578.5px;
+}
+#section8 .container .gap .content .right-box .right-content ul li {
+  width: 578.5px;
+  height: 568.516px;
+  margin-top: 150px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .img-box {
+  margin-bottom: 50px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .img-box img {
+  width: 578.5px;
+  height: 348.922px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .title-box {
+  display: flex;
+  flex-flow: column;
+}
+#section8 .container .gap .content .right-box .right-content ul li .title-box .row1 {
+  color: #7e9fc2;
+  font-size: 15px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .title-box .row2 {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .title-box .row3 {
+  font-size: 19px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 26.6px;
+  margin-bottom: 20px;
+}
+#section8 .container .gap .content .right-box .right-content ul li .title-box .row4 {
+  max-width: 77.563px;
+  font-size: 14px;
+  color: #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+  line-height: 21px;
+}

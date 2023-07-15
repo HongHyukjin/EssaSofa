@@ -1,0 +1,154 @@
+#section5 {
+  width: 100%;
+  margin: 0 auto;
+}
+#section5 .container {
+  width: 100%;
+}
+#section5 .container .gap {
+  width: 100%;
+}
+#section5 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#section5 .container .gap .content .left-box {
+  width: 50%;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+}
+#section5 .container .gap .content .left-box > .left-content .left-title {
+  position: relative;
+}
+#section5 .container .gap .content .left-box > .left-content .left-title > img {
+  z-index: -1;
+  position: absolute;
+  width: 951.5px;
+  height: 969px;
+  top: 0;
+  left: 0;
+}
+#section5 .container .gap .content .left-box > .left-content .left-title > span {
+  position: absolute;
+  top: 800px;
+  left: 70px;
+  font-size: 52px;
+  color: #fff;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  line-height: 1;
+}
+#section5 .container .gap .content .left-box > .left-content .left-title p {
+  position: absolute;
+  font-size: 28px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.2;
+  top: 870px;
+  left: 70px;
+}
+#section5 .container .gap .content .right-box {
+  background-color: #f1eae2;
+  width: 50%;
+  height: auto;
+}
+#section5 .container .gap .content .right-box > .right-title {
+  max-width: 761.188px;
+  margin: 180px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#section5 .container .gap .content .right-box > .right-title h2 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 400;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+#section5 .container .gap .content .right-box > .right-title h2 i {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  color: #93aeca;
+}
+#section5 .container .gap .content .right-box > .right-title > span {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+  padding-bottom: 1px;
+}
+#section5 .container .gap .content .right-box .right-content {
+  max-width: 770.188px;
+  margin: 0 auto;
+}
+#section5 .container .gap .content .right-box .right-content ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+#section5 .container .gap .content .right-box .right-content ul li {
+  width: 50%;
+  height: 400px;
+  padding: 0 11.578px;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box img {
+  width: 363.141px;
+  height: 259.641px;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box .button-box {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  transform: translateY(200%);
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box .button-box .button {
+  display: flex;
+  justify-content: space-around;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box .button-box .button button {
+  background: none;
+  border: 0;
+}
+#section5 .container .gap .content .right-box .right-content ul li .img-box .button-box .button button img {
+  width: 25px;
+  height: 24px;
+}
+#section5 .container .gap .content .right-box .right-content ul li .title-box {
+  position: relative;
+  width: 341.141px;
+  height: 54.234px;
+  padding: 20px 10px 0 10px;
+}
+#section5 .container .gap .content .right-box .right-content ul li .title-box span {
+  font-family: "Pretendard";
+  font-size: 16px;
+  color: #1e1e1e;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  padding: 0 0 8px 0;
+}
+#section5 .container .gap .content .right-box .right-content ul li .title-box .img1 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+#section5 .container .gap .content .right-box .right-content ul li .title-box .img2 {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}

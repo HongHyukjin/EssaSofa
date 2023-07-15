@@ -1,0 +1,90 @@
+#section2 {
+  margin-bottom: 132px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-bottom: 132px;
+  padding: 0 4%;
+}
+#section2 .container {
+  width: 100%;
+}
+#section2 .container .gap {
+  width: 100%;
+}
+#section2 .container .gap .content {
+  width: 100%;
+}
+#section2 .container .gap .content .slide-container {
+  width: 100%;
+}
+#section2 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 6684.376px;
+  height: 530px;
+  display: flex;
+  position: relative;
+  transform: translate3d(-2200.5245px, 0px, 0px);
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 795.556px;
+  margin: 0 20px;
+  padding: 35px 0;
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide a {
+  display: block;
+  width: 100%;
+  height: 95%;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+  filter: brightness(70%);
+  transition: 0.5s;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide a i {
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide a i::before {
+  content: "\ea3f";
+  font-family: "xeicon";
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11px;
+  transition: 1s;
+  opacity: 0;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide article .cate {
+  background: #7e9fc2;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  line-height: 18px;
+  vertical-align: 2px;
+}
+#section2 .container .gap .content .slide-container .slide-view .slide-wrap .slide article .tit {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}

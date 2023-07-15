@@ -1,0 +1,61 @@
+#idfind {
+  width: 100%;
+  padding: 150px 0;
+}
+#idfind .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#idfind .container .gap {
+  width: 100%;
+}
+#idfind .container .gap .title {
+  width: 100%;
+  text-align: center;
+}
+#idfind .container .gap .title h1 {
+  font-weight: 700;
+  color: #333;
+  font-size: 25px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  margin-left: -30px;
+}
+#idfind .container .gap .content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+#idfind .container .gap .content form .btn-member-sec {
+  margin-top: 60px;
+  border-top: 1px solid #dbdbdb;
+}
+#idfind .container .gap .content form .btn-member-sec ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#idfind .container .gap .content form .btn-member-sec ul li {
+  margin-right: 10px;
+}
+#idfind .container .gap .content form .btn-member-sec ul li .pwsearch-btn {
+  color: #7e9fc2;
+  background: #fff;
+  border: 1px solid #7e9fc2;
+  width: 150px;
+  height: 45px;
+  font-weight: 700px;
+  font-size: 14px;
+}
+#idfind .container .gap .content form .btn-member-sec ul li .login-btn {
+  background: #7e9fc2;
+  color: #fff;
+  border: 0;
+  width: 150px;
+  height: 45px;
+  font-weight: 700px;
+  font-size: 14px;
+}

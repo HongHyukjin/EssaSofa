@@ -1,0 +1,113 @@
+#BoardWriteUpdate {
+  width: 100%;
+  font-family: "Red Hat Display", "Pretendard", sans-serif;
+}
+#BoardWriteUpdate .container {
+  width: 100%;
+  max-width: 1600px;
+  height: 1155.03px;
+  margin: 0 auto;
+}
+#BoardWriteUpdate .container .title {
+  padding: 120px 0 80px 0;
+  text-align: center;
+}
+#BoardWriteUpdate .container .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+#BoardWriteUpdate .container .content {
+  margin: 0 auto;
+  width: 100%;
+  height: 1065.5px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm {
+  width: 1600px;
+  margin: 0 auto;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write {
+  width: 100%;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box {
+  width: 100%;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table {
+  margin: 0 auto;
+  border-top: 1px solid rgb(219, 219, 219);
+  border-bottom-color: 1px solid rgb(219, 219, 219);
+  border-collapse: collapse;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody {
+  width: 100%;
+  height: 100%;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr th {
+  font-weight: bold;
+  background: rgba(151, 175, 211, 0.8);
+  vertical-align: top;
+  padding: 13px 0 7px 25px;
+  text-align: left;
+  width: 208.5px;
+  color: #fff;
+  height: 47px;
+  border-top: 1px solid #97afd3;
+  border-bottom-color: 1px solid #97afd3;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr td {
+  padding: 0 15px;
+  width: 1181.5px;
+  display: table-cell;
+  vertical-align: inherit;
+  border-top: 1px solid rgb(219, 219, 219);
+  border-bottom-color: 1px solid rgb(219, 219, 219);
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr td input {
+  width: 312px;
+  height: 31px;
+  border: 1px solid #d6d6d6;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(1) th {
+  width: 208.5;
+  height: 47px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(1) td .category_select {
+  text-align: left;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(1) td .category_select select {
+  border: 1px solid #97afd3;
+  padding: 5px 33px 5px 0;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(2) th {
+  height: 47px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(4) td {
+  padding: 15px 15px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .board_write_box .board_write_table tbody tr:nth-child(4) td textarea {
+  width: 1127.5px;
+  height: 192px;
+  border: 1px solid #d6d6d6;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .btn_center_box {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .btn_center_box .btn_before {
+  text-align: center;
+  width: 90px;
+  height: 42px;
+  padding: 0 5px;
+  color: #3e3d3c;
+  border: 1px solid #6184b1;
+  background: #fff;
+  margin: 0 3px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .btn_center_box .btn_before a {
+  color: #6184b1;
+  font-weight: bold;
+  font-size: 14px;
+}
+#BoardWriteUpdate .container .content #productInquiryUpdateForm .board_zone_write .btn_center_box .btn_before a:nth-child(2) {
+  background: #6184b1;
+}

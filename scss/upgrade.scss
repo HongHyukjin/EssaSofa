@@ -1,0 +1,427 @@
+#upgrade {
+    width:100%;
+    height:100%;
+    #gradesection1 {
+        width:100%;
+        height:100%;
+        .container {
+            width:100%;
+            height:100%;
+            .gap {
+                width:100%;
+                height:100%;
+                .content {
+                    position: relative;
+                    width:100%;
+                    height: 1230px;
+                    background: url(../img/subpage/upgrade/sect1_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+                        position: absolute;
+                        top:60%;
+                        left:35%;
+                        animation: cloud 1.5s alternate infinite ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+    #gradesection2 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:610px;
+                    background: url(../img/subpage/upgrade/sect2_1_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection3 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:676px;
+                    background: url(../img/subpage/upgrade/sect2_2_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection4 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:653px;
+                    background: url(../img/subpage/upgrade/sect3_1_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection5 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:804px;
+                    background: url(../img/subpage/upgrade/sect3_2_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection6 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:1594px;
+                    background: url(../img/subpage/upgrade/sect4_bg.jpg) no-repeat 50% 50%;
+                    background-size:cover ;
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection7 {
+        width:100%;
+        .container {
+            width: 100%;
+            .gap {
+                width:100%;
+                .content {
+                    width:100%;
+                    height:244px;
+                    background: url(../img/subpage/upgrade/sect6_bg.jpg) no-repeat 50% 50%;
+                    
+                    img {
+
+                    }
+                }
+            }
+        }
+    }
+    #gradesection8 {
+        width:100%;
+        padding: 100px 0 70px 0;
+        .container {
+            width: 100%;
+            max-width: 1600px;
+            margin:0 auto;
+            .gap {
+                width:100%;
+                padding:0 76.190px;
+                .title {
+                    width:100%;
+                    .title-box {
+                        text-align: center;
+                        padding: 50px 0;
+                            h1 {
+                                font-size: 28px;
+                                font-weight: 700;
+                                line-height: 47.6px;
+                                padding: 23px 0;
+                                color:#333;
+                                border-top: 1px solid #676767;
+                                border-bottom: 1px solid #676767;
+                            }
+                        }
+                    }
+                    .product_list{
+                        width : 100%;
+                        padding-bottom: 30px;
+                        margin : 0 auto;
+                        ul{
+                          width : auto;
+                          float: none;
+                          margin : 0 -0.75%;
+                          li{
+                            width: 25%;
+                            margin: 0 0 80px;
+                            padding: 0 0.75%;
+                            box-sizing: border-box;
+                            display: inline-block;
+                            position: relative;
+                            text-align: center;
+                            vertical-align: top;
+                            font-size: 12px;
+                            .item_cont{
+                              text-align: left;
+                              color : #1c1c1c;
+                              .photo_box{
+                                width : 100%;
+                                margin : 0 0 20px 0;
+                                border : 0;
+                                display: inline-block;
+                                position: relative;
+                                text-align: center;
+                                &:hover{
+                                  .item_link{
+                                    bottom : 0;
+                                    opacity: 1;
+                                    cursor: pointer;
+                                  }
+                                }
+                                a{
+                                  display: block;
+                                  height : 100%;
+                                  img{
+                                    width: 100%;
+                                    height: auto;
+                                  }
+                                  .item_link{
+                                    opacity: 0;
+                                    width: 100%;
+                                    position: absolute;
+                                    z-index: 6;
+                                    bottom: -10px;
+                                    left: 0;
+                                    background: rgba(255, 255, 255, 0.5);
+                                    backdrop-filter: blur(4px);
+                                    transition: 0.3s;
+                                    .inner{
+                                      display: flex;
+                                      button{
+                                        flex: 1;
+                                        width: auto;
+                                        padding: 0;
+                                        background-color: transparent;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 56px;
+                                        border: 0;
+                                        cursor: pointer;
+                                        img{
+                                          margin : 0 auto;
+                                          width : 25px;
+                                          height : 24px;
+                                        }
+                                      }
+                                      .right{
+                                        &::before{
+                                          content: '';
+                                          display: inline-block;
+                                          width: 1px;
+                                          height: 24px;
+                                          margin: 16px 0;
+                                          background-color: #e5e5e5;
+                                          color : #fff;
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              .info_box{
+                                padding : 0 11px;
+                                font-size: 12px;
+                                font-family: 'Pretendard';
+                                .tit_box{
+                                  text-align: left;
+                                  padding : 0;
+                                  a{
+                                    color: #333;
+                                    .item_name{
+                                      display: block;
+                                      padding: 0 0 8px 0;
+                                      font-size: 16px;
+                                      font-weight: 600;
+                                      color: #1e1e1e;
+                                      line-height: 19.2px;
+                                      letter-spacing: -0.02em;
+                                      overflow: hidden;
+                                    }
+                                    .item_name_explain{
+                                      display: block;
+                                      padding: 0;
+                                      white-space: nowrap;
+                                      overflow: hidden;
+                                      text-overflow: ellipsis;
+                                      font-size: 13px;
+                                      font-weight: 400;
+                                      color: #7e9fc2;
+                                      line-height: 12px;
+                                      letter-spacing: -0.01em;
+                                      margin-bottom: 8px;
+                                    }
+                                  }
+                                }
+                                .money_box{
+                                  text-align: left;
+                                  .origin_price{
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #a8a8a8;
+                                    line-height: 20px;
+                                    text-decoration: line-through;
+                                    margin-right: 14px;
+                                    &.on{
+                                      text-decoration: none;
+                                      font-size: 16px;
+                                      font-weight: 700;
+                                      color : #000;
+                                    }
+                                  }
+                                  .sale_price{
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    color: #000;
+                                    margin-right: 6px;
+                                  }
+                                  .sale_per{
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    line-height: 1;
+                                    font-weight: 700;
+                                    color: #7e9fc2;
+                                  }
+                                }
+                                .icon_box{
+                                  margin-top: 7px;
+                                  border-bottom: 0;
+                                  img{
+                                    display: inline-block;
+                                    margin-right: 5px;
+                                    padding: 0;
+                                  }
+                                }
+                                .review_cnt{
+                                  position: relative;
+                                  margin-top: 21px;
+                                  a{
+                                    i{
+                                      font-size: 20px;
+                                      vertical-align: top;
+                                      margin-right: 6px;
+                                      color: #686868;
+                                    }
+                                    span{
+                                      font-size: 14px;
+                                      color: #676767;
+                                      line-height: 20px;
+                                      vertical-align: top;
+                                      font-weight: 500;
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+            }
+        }
+    }
+    #gradesection9 {
+        width:100%;
+        .container {
+            width:100%;
+            .gap {
+                width:100%;
+                .title   {
+                    width:100%;
+                    text-align: center;
+                    .sec9-tit-box {
+                        margin-bottom:70px;
+                        h1   {
+                            font-size: 25px;
+                            color:#232323;
+                            font-weight: 600;
+                            line-height: 37.5px;
+                            margin-bottom:10px;
+                        }
+                        span {
+                            font-size: 15px;
+                            line-height: 22.5px;
+                            color:#333;
+                        }
+                    }
+                }
+                .content {
+                    width:100%;
+                    max-width: 1400px;
+                    margin:0 auto;
+                    ul {
+                        width: 100%;
+                        display:flex;
+                        flex-flow: row wrap;
+                        li {
+                            width:33.333%;
+                            padding: 5px 0;
+                            padding-bottom: 15px;
+                            .event-box {
+                                width:100%;
+                                .img-box {
+                                    img {
+                                        width:458px;
+                                        height:393.875px;
+                                    }
+                                }
+                                .event-titbox {
+                                    padding:20px;
+                                    width:458px;
+                                    height:88px;
+                                    border:1px solid #ededed;
+                                    h3 {
+                                        color:#232323;
+                                        font-size: 18px;
+                                        font-weight: 300;
+                                        line-height: 27px;
+
+                                    }
+                                    .event-date {
+                                        color:#939393;
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @keyframes cloud {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform:  translateY(10px);
+            }
+    }
+}

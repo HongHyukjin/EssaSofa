@@ -1,0 +1,21 @@
+#wrap #timer {
+  position: relative;
+}
+#wrap #timer .timer-box {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+}
+#wrap #timer .timer-box h1 {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 56px;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+#wrap #timer .timer-box h2 {
+  font-size: 80px;
+  color: #000;
+  line-height: 1;
+  font-weight: 400;
+}

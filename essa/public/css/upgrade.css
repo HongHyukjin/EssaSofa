@@ -1,0 +1,399 @@
+#upgrade {
+  width: 100%;
+  height: 100%;
+}
+#upgrade #gradesection1 {
+  width: 100%;
+  height: 100%;
+}
+#upgrade #gradesection1 .container {
+  width: 100%;
+  height: 100%;
+}
+#upgrade #gradesection1 .container .gap {
+  width: 100%;
+  height: 100%;
+}
+#upgrade #gradesection1 .container .gap .content {
+  position: relative;
+  width: 100%;
+  height: 1230px;
+  background: url(../img/subpage/upgrade/sect1_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection1 .container .gap .content img {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  animation: cloud 1.5s alternate infinite ease-in-out;
+}
+#upgrade #gradesection2 {
+  width: 100%;
+}
+#upgrade #gradesection2 .container {
+  width: 100%;
+}
+#upgrade #gradesection2 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection2 .container .gap .content {
+  width: 100%;
+  height: 610px;
+  background: url(../img/subpage/upgrade/sect2_1_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection3 {
+  width: 100%;
+}
+#upgrade #gradesection3 .container {
+  width: 100%;
+}
+#upgrade #gradesection3 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection3 .container .gap .content {
+  width: 100%;
+  height: 676px;
+  background: url(../img/subpage/upgrade/sect2_2_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection4 {
+  width: 100%;
+}
+#upgrade #gradesection4 .container {
+  width: 100%;
+}
+#upgrade #gradesection4 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection4 .container .gap .content {
+  width: 100%;
+  height: 653px;
+  background: url(../img/subpage/upgrade/sect3_1_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection5 {
+  width: 100%;
+}
+#upgrade #gradesection5 .container {
+  width: 100%;
+}
+#upgrade #gradesection5 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection5 .container .gap .content {
+  width: 100%;
+  height: 804px;
+  background: url(../img/subpage/upgrade/sect3_2_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection6 {
+  width: 100%;
+}
+#upgrade #gradesection6 .container {
+  width: 100%;
+}
+#upgrade #gradesection6 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection6 .container .gap .content {
+  width: 100%;
+  height: 1594px;
+  background: url(../img/subpage/upgrade/sect4_bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+#upgrade #gradesection7 {
+  width: 100%;
+}
+#upgrade #gradesection7 .container {
+  width: 100%;
+}
+#upgrade #gradesection7 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection7 .container .gap .content {
+  width: 100%;
+  height: 244px;
+  background: url(../img/subpage/upgrade/sect6_bg.jpg) no-repeat 50% 50%;
+}
+#upgrade #gradesection8 {
+  width: 100%;
+  padding: 100px 0 70px 0;
+}
+#upgrade #gradesection8 .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#upgrade #gradesection8 .container .gap {
+  width: 100%;
+  padding: 0 76.19px;
+}
+#upgrade #gradesection8 .container .gap .title {
+  width: 100%;
+}
+#upgrade #gradesection8 .container .gap .title .title-box {
+  text-align: center;
+  padding: 50px 0;
+}
+#upgrade #gradesection8 .container .gap .title .title-box h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 47.6px;
+  padding: 23px 0;
+  color: #333;
+  border-top: 1px solid #676767;
+  border-bottom: 1px solid #676767;
+}
+#upgrade #gradesection8 .container .gap .product_list {
+  width: 100%;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+#upgrade #gradesection8 .container .gap .product_list ul {
+  width: auto;
+  float: none;
+  margin: 0 -0.75%;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li {
+  width: 25%;
+  margin: 0 0 80px;
+  padding: 0 0.75%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  font-size: 12px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont {
+  text-align: left;
+  color: #1c1c1c;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box:hover .item_link {
+  bottom: 0;
+  opacity: 1;
+  cursor: pointer;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a {
+  display: block;
+  height: 100%;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a img {
+  width: 100%;
+  height: auto;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a .item_link {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  bottom: -10px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  transition: 0.3s;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a .item_link .inner {
+  display: flex;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a .item_link .inner button {
+  flex: 1;
+  width: auto;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border: 0;
+  cursor: pointer;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a .item_link .inner button img {
+  margin: 0 auto;
+  width: 25px;
+  height: 24px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .photo_box a .item_link .inner .right::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 24px;
+  margin: 16px 0;
+  background-color: #e5e5e5;
+  color: #fff;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box {
+  padding: 0 11px;
+  font-size: 12px;
+  font-family: "Pretendard";
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .tit_box {
+  text-align: left;
+  padding: 0;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .tit_box a {
+  color: #333;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .tit_box a .item_name {
+  display: block;
+  padding: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e1e1e;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  overflow: hidden;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .tit_box a .item_name_explain {
+  display: block;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-weight: 400;
+  color: #7e9fc2;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .money_box {
+  text-align: left;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .money_box .origin_price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a8a8a8;
+  line-height: 20px;
+  text-decoration: line-through;
+  margin-right: 14px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .money_box .origin_price.on {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .money_box .sale_price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 6px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .money_box .sale_per {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: #7e9fc2;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .icon_box {
+  margin-top: 7px;
+  border-bottom: 0;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .icon_box img {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .review_cnt {
+  position: relative;
+  margin-top: 21px;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .review_cnt a i {
+  font-size: 20px;
+  vertical-align: top;
+  margin-right: 6px;
+  color: #686868;
+}
+#upgrade #gradesection8 .container .gap .product_list ul li .item_cont .info_box .review_cnt a span {
+  font-size: 14px;
+  color: #676767;
+  line-height: 20px;
+  vertical-align: top;
+  font-weight: 500;
+}
+#upgrade #gradesection9 {
+  width: 100%;
+}
+#upgrade #gradesection9 .container {
+  width: 100%;
+}
+#upgrade #gradesection9 .container .gap {
+  width: 100%;
+}
+#upgrade #gradesection9 .container .gap .title {
+  width: 100%;
+  text-align: center;
+}
+#upgrade #gradesection9 .container .gap .title .sec9-tit-box {
+  margin-bottom: 70px;
+}
+#upgrade #gradesection9 .container .gap .title .sec9-tit-box h1 {
+  font-size: 25px;
+  color: #232323;
+  font-weight: 600;
+  line-height: 37.5px;
+  margin-bottom: 10px;
+}
+#upgrade #gradesection9 .container .gap .title .sec9-tit-box span {
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #333;
+}
+#upgrade #gradesection9 .container .gap .content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#upgrade #gradesection9 .container .gap .content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#upgrade #gradesection9 .container .gap .content ul li {
+  width: 33.333%;
+  padding: 5px 0;
+  padding-bottom: 15px;
+}
+#upgrade #gradesection9 .container .gap .content ul li .event-box {
+  width: 100%;
+}
+#upgrade #gradesection9 .container .gap .content ul li .event-box .img-box img {
+  width: 458px;
+  height: 393.875px;
+}
+#upgrade #gradesection9 .container .gap .content ul li .event-box .event-titbox {
+  padding: 20px;
+  width: 458px;
+  height: 88px;
+  border: 1px solid #ededed;
+}
+#upgrade #gradesection9 .container .gap .content ul li .event-box .event-titbox h3 {
+  color: #232323;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+#upgrade #gradesection9 .container .gap .content ul li .event-box .event-titbox .event-date {
+  color: #939393;
+  font-size: 14px;
+  line-height: 21px;
+}
+@keyframes cloud {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}

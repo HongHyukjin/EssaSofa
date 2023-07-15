@@ -1,0 +1,33 @@
+#mypagenav .left-box {
+  width: 200px;
+}
+#mypagenav .left-box .sub-menu-box h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+#mypagenav .left-box .sub-menu-box .sub-menu-mypage {
+  margin-top: 43px;
+}
+#mypagenav .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0;
+  color: #333;
+}
+#mypagenav .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit .sub-menu-detail .detail-tit {
+  font-size: 15px;
+  font-weight: 300;
+  color: #a8a8a8;
+  line-height: 22.5px;
+  padding: 8px 0;
+}
+#mypagenav .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit .sub-menu-detail .detail-tit a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #a8a8a8;
+  line-height: 22.5px;
+  padding: 8px 0;
+}

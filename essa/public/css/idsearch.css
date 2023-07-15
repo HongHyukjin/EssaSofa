@@ -1,0 +1,115 @@
+#idsearch {
+  width: 100%;
+  padding: 150px 0;
+}
+#idsearch .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#idsearch .container .gap {
+  width: 100%;
+}
+#idsearch .container .gap .title {
+  width: 100%;
+  text-align: center;
+}
+#idsearch .container .gap .title h1 {
+  font-weight: 700;
+  color: #333;
+  font-size: 25px;
+  line-height: 42px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  margin-left: -30px;
+}
+#idsearch .container .gap .content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+#idsearch .container .gap .content form .find-id-box .choose-btn input {
+  margin-right: 2px;
+}
+#idsearch .container .gap .content form .find-id-box .choose-btn label {
+  font-size: 11px;
+  line-height: 21px;
+  color: #333;
+  margin-right: 10px;
+}
+#idsearch .container .gap .content form .find-id-box .idsearch-main-box {
+  display: flex;
+}
+#idsearch .container .gap .content form .find-id-box .idsearch-main-box .idsearch-box ul li {
+  margin-top: 10px;
+}
+#idsearch .container .gap .content form .find-id-box .idsearch-main-box .idsearch-box ul li .input-name {
+  width: 280px;
+  height: 58px;
+  border: 1px solid #d0d0d0;
+  color: #979d9d;
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+#idsearch .container .gap .content form .find-id-box .idsearch-main-box .idsearch-box ul li .input-email {
+  width: 280px;
+  height: 58px;
+  border: 1px solid #d0d0d0;
+  color: #979d9d;
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+#idsearch .container .gap .content form .find-id-box .idsearch-main-box .idsearch-btn {
+  margin-top: 11px;
+  margin-left: 10px;
+  color: #fff;
+  border: 0;
+  background: #7e9fc2;
+  width: 158px;
+  height: 125px;
+}
+#idsearch .container .gap .content form .btn4 {
+  text-align: center;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  color: #232323;
+  line-height: 27px;
+}
+#idsearch .container .gap .content form .btn4 li span {
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}
+#idsearch .container .gap .content form .btn-member-sec {
+  margin-top: 60px;
+  border-top: 1px solid #dbdbdb;
+}
+#idsearch .container .gap .content form .btn-member-sec ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#idsearch .container .gap .content form .btn-member-sec ul li {
+  margin-right: 10px;
+}
+#idsearch .container .gap .content form .btn-member-sec ul li .pwsearch-btn {
+  color: #7e9fc2;
+  background: #fff;
+  border: 1px solid #7e9fc2;
+  width: 150px;
+  height: 45px;
+  font-weight: 700px;
+  font-size: 14px;
+}
+#idsearch .container .gap .content form .btn-member-sec ul li .login-btn {
+  background: #7e9fc2;
+  color: #fff;
+  border: 0;
+  width: 150px;
+  height: 45px;
+  font-weight: 700px;
+  font-size: 14px;
+}

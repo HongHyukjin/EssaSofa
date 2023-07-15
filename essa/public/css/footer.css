@@ -1,0 +1,97 @@
+#footer {
+  background: #93aeca;
+  width: 100%;
+}
+#footer .container {
+  width: 100%;
+  max-width: 1448px;
+  margin: 0 auto;
+}
+#footer .container .gap {
+  width: 100%;
+  display: flex;
+  padding: 120px 0 140px 0;
+  justify-content: space-between;
+}
+#footer .container .gap .left-box .logo-box a svg {
+  width: auto;
+}
+#footer .container .gap .left-box .row1 {
+  padding: 40px 0;
+}
+#footer .container .gap .left-box .row1 .info {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+}
+#footer .container .gap .left-box .row1 .info a {
+  color: #fff;
+}
+#footer .container .gap .left-box .row1 .info:first-child a {
+  text-decoration: underline;
+  font-weight: 700;
+}
+#footer .container .gap .left-box .row1 .info:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+#footer .container .gap .left-box .row1 .info:nth-child(2) a {
+  padding: 0 0 0.5px 5px;
+}
+#footer .container .gap .left-box .row1 .info:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+#footer .container .gap .left-box .row2 {
+  display: flex;
+  padding: 0 0 40px 0;
+  color: #fff;
+}
+#footer .container .gap .left-box .row2 .col1-left, #footer .container .gap .left-box .row2 .col1-right {
+  padding: 0 100px 0 0;
+}
+#footer .container .gap .left-box .row2 .col1-left h4, #footer .container .gap .left-box .row2 .col1-right h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+}
+#footer .container .gap .left-box .row2 .col1-left > ul li span, #footer .container .gap .left-box .row2 .col1-right > ul li span {
+  font-size: 16px;
+  line-height: 24px;
+}
+#footer .container .gap .left-box .row3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+#footer .container .gap .right-box .sns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0 43px 0;
+}
+#footer .container .gap .right-box .sns a {
+  margin: 0 0 0 12px;
+}
+#footer .container .gap .right-box .sns a i {
+  font-size: 28px;
+  color: #fff;
+}
+#footer .container .gap .right-box .down {
+  display: flex;
+}
+#footer .container .gap .right-box .down .col2-left > ul, #footer .container .gap .right-box .down .col2-right > ul {
+  padding: 0 0 0 120px;
+}
+#footer .container .gap .right-box .down .col2-left > ul li, #footer .container .gap .right-box .down .col2-right > ul li {
+  padding: 4px 0 0 0;
+}
+#footer .container .gap .right-box .down .col2-left > ul li a, #footer .container .gap .right-box .down .col2-right > ul li a {
+  display: block;
+  text-align: end;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+}
+#footer .container .gap .right-box .down .col2-left > ul li a.line, #footer .container .gap .right-box .down .col2-right > ul li a.line {
+  text-decoration: underline;
+}

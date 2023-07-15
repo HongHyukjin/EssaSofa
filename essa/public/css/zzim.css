@@ -1,0 +1,353 @@
+#zzim {
+  width: 100%;
+}
+#zzim .container {
+  width: 100%;
+  max-width: 1752px;
+  padding: 0 76px;
+  margin: 0 auto;
+  height: 1600px;
+}
+#zzim .container .gap {
+  width: 100%;
+}
+#zzim .container .gap .content {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+}
+#zzim .container .gap .content .left-box {
+  width: 200px;
+}
+#zzim .container .gap .content .left-box .sub-menu-box h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+}
+#zzim .container .gap .content .left-box .sub-menu-box .sub-menu-mypage {
+  margin-top: 43px;
+}
+#zzim .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0;
+  color: #333;
+}
+#zzim .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit .sub-menu-detail .detail-tit {
+  font-size: 15px;
+  font-weight: 300;
+  color: #a8a8a8;
+  line-height: 22.5px;
+  padding: 8px 0;
+}
+#zzim .container .gap .content .right-box {
+  width: calc(100% - 240px);
+  padding-left: 40px;
+}
+#zzim .container .gap .content .right-box .mypage-main {
+  width: 100%;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 {
+  width: 100%;
+  display: flex;
+  border: 1px solid #e3e3e3;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box {
+  width: 30%;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box {
+  width: 421.109px;
+  height: 188px;
+  padding: 0 20px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background: #f7f9f8;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box .user-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #343534;
+  line-height: 42px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box p {
+  color: #6184b1;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box {
+  width: 70%;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul {
+  padding: 60px 10px;
+  display: block;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li {
+  width: 33%;
+  text-align: center;
+  display: inline-block;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li span {
+  text-align: center;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li span em {
+  display: block;
+  padding: 15px 0;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  line-height: 14px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li span strong {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6184b1;
+  line-height: 24px;
+  margin-right: 3px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 {
+  margin-top: 100px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-order-tit {
+  display: flex;
+  margin-bottom: 10px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-order-tit h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #333;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-order-tit span {
+  color: #a8a8a8;
+  font-weight: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box {
+  width: 100%;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table {
+  width: 100%;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  background: #f7f7f7;
+  height: 43px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table thead > tr {
+  display: table-row;
+  vertical-align: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table thead > tr th {
+  display: table-cell;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody {
+  width: 1360px;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody .info-answer {
+  width: 1360px;
+  height: 181px;
+  text-align: center;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody .info-answer td p {
+  color: #999;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -1px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td {
+  height: 31px;
+  padding: 30px 10px 29px 10px;
+  color: #777;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td > strong {
+  color: #6184b1;
+  font-weight: bold;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .btn_gray_list {
+  margin: 5px 0 0 0;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .btn_gray_list a {
+  font-size: 11px;
+  border: 1px solid #dbdbdb;
+  vertical-align: middle;
+  padding: 0 0 0 11px;
+  font-family: "Pretendard";
+  display: inline-block;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .btn_gray_list a span {
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 12px 0 0;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .benefit_list {
+  display: inline-block;
+  min-width: 90px;
+  text-align: center;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .benefit_list .benefit_sale {
+  position: relative;
+  color: #888888;
+  text-align: left;
+  line-height: 1.5;
+  font-family: "Pretendard";
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .benefit_list .benefit_sale em {
+  padding: 0 5px 1px 20px;
+  background: url("../img/icon_discount.gif") no-repeat 0 2px;
+  display: block;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .benefit_list .benefit_sale span {
+  display: block;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td .benefit_list .benefit_sale span strong {
+  padding: 0 0 0 5px;
+  color: #333333;
+  font-weight: normal;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td div {
+  font-family: "Pretendard";
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td div .btn_wish_cart {
+  border: 1px solid #7e9fc2;
+  background: #7e9fc2;
+  display: inline-block;
+  min-width: 46px;
+  margin: 2px 1px;
+  padding: 3px 10px 4px 10px;
+  color: #fff;
+  text-align: center;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td div .btn_wish_cart em {
+  font-weight: normal;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td div .btn_wish_del {
+  border: 1px solid #7e9fc2;
+  color: #7e9fc2;
+  display: inline-block;
+  min-width: 46px;
+  margin: 2px 1px;
+  padding: 3px 10px 4px 10px;
+  background: #fff;
+  text-align: center;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr td div .btn_wish_del em {
+  font-weight: normal;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left {
+  text-align: left;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left .pick_add_cont {
+  display: flex;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left .pick_add_cont .pick_add_img {
+  display: block;
+  width: 100px;
+  vertical-align: top;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left .pick_add_cont .pick_add_img img {
+  width: 100%;
+  height: 72px;
+  border: 1px solid #dbdbdb;
+  vertical-align: middle;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left .pick_add_cont .pick_add_info {
+  display: table-cell;
+  padding: 0 0 0 10px;
+  vertical-align: middle;
+  word-break: break-all;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table table tbody tr .td_left .pick_add_cont .pick_add_info em {
+  display: block;
+  color: #333333;
+  font-weight: bold;
+  font-family: "Pretendard";
+  line-height: 72px;
+}
+#zzim .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-myinfo-box .myinfo-table button {
+  cursor: pointer;
+  width: auto;
+  height: 28px;
+  padding: 3px 10px 4px 10px;
+  border: 1px solid #a3a3a3;
+  background: #fff;
+  color: #626262;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 21px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.delete-modal {
+  font-family: "Pretendard";
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.delete-modal .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.delete-modal .container .content {
+  width: 340px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+}
+.delete-modal .container .content .txt {
+  width: 100%;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 23px;
+  word-wrap: break-word;
+  word-break: keep-all;
+  color: #000;
+  font-weight: 700;
+}
+.delete-modal .container .content .btn {
+  width: 100%;
+}
+.delete-modal .container .content .btn button {
+  width: 50%;
+  height: 50px;
+  border: 0;
+  background: #7e9fc2;
+  color: #fff;
+  font-weight: 700;
+  outline: 0;
+}
+.delete-modal .container .content .btn button:nth-child(3) {
+  color: #7e9fc2;
+  background: #fff;
+  border-top: 1px solid #7e9fc2;
+}

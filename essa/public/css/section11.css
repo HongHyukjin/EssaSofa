@@ -1,0 +1,153 @@
+#section11 {
+  width: 100%;
+  padding: 100px 0;
+}
+#section11 .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 1046px;
+}
+#section11 .container .gap {
+  width: 100%;
+}
+#section11 .container .gap .title {
+  width: 100%;
+  padding: 0 0 80px 0;
+}
+#section11 .container .gap .title .main-title {
+  color: #1a1a1a;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  font-family: "ivypresto-display", serif;
+  letter-spacing: -3px;
+  line-height: 56px;
+  visibility: visible;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-name: fadeInUp;
+}
+#section11 .container .gap .content {
+  width: 1447.78px;
+  display: flex;
+  margin: 0 auto;
+}
+#section11 .container .gap .content .left-box {
+  width: 723.891px;
+  height: 750px;
+}
+#section11 .container .gap .content .left-box .video-wrap {
+  width: 723.891px;
+  height: 750px;
+  position: relative;
+  z-index: -1;
+}
+#section11 .container .gap .content .left-box .video-wrap video {
+  width: 663.891px;
+  height: 757.5px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+#section11 .container .gap .content .right-box {
+  width: 50%;
+  height: auto;
+}
+#section11 .container .gap .content .right-box > .right-title {
+  max-width: 761.188px;
+  margin: 180px auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#section11 .container .gap .content .right-box > .right-title h2 {
+  position: relative;
+  font-size: 42px;
+  font-weight: 400;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+#section11 .container .gap .content .right-box > .right-title h2 i {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  color: #93aeca;
+}
+#section11 .container .gap .content .right-box > .right-title > span {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+  padding-bottom: 1px;
+}
+#section11 .container .gap .content .right-box .right-content {
+  max-width: 770.188px;
+  margin: 0 auto;
+}
+#section11 .container .gap .content .right-box .right-content ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+#section11 .container .gap .content .right-box .right-content ul li {
+  width: 50%;
+  height: 400px;
+  padding: 0 11.578px;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box img {
+  width: 363.141px;
+  height: 259.641px;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box .button-box {
+  padding: 15px 0 0 0;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  transform: translateY(200%);
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box .button-box .button {
+  display: flex;
+  justify-content: space-around;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box .button-box .button button {
+  background: none;
+  border: 0;
+}
+#section11 .container .gap .content .right-box .right-content ul li .img-box .button-box .button button img {
+  width: 25px;
+  height: 24px;
+}
+#section11 .container .gap .content .right-box .right-content ul li .title-box {
+  position: relative;
+  width: 341.141px;
+  height: 54.234px;
+  padding: 20px 10px 0 10px;
+}
+#section11 .container .gap .content .right-box .right-content ul li .title-box span {
+  font-size: 15px;
+  color: #1e1e1e;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+#section11 .container .gap .content .right-box .right-content ul li .title-box .img1 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+#section11 .container .gap .content .right-box .right-content ul li .title-box .img2 {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
