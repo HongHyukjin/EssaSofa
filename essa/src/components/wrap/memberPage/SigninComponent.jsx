@@ -109,7 +109,7 @@ function SigninComponent(props) {
                             <div className="login-chek-box">    
                                 <div className="id-chek">
                                     <span className='form-id'>
-                                        <img src="../img/check1.png" alt="" />
+                                        <img src="./img/check1.png" alt="" />
                                         <label htmlFor="saveId" className='check-on'>아이디 저장</label>
                                     </span>
                                 </div>
@@ -127,21 +127,21 @@ function SigninComponent(props) {
                         </form>
                         <div className="member-sns-login">
                             <a href="!#">
-                                <img src="../img/pc_naver.png" alt="" />
+                                <img src="./img/pc_naver.png" alt="" />
                                 <p>네이버<br />로그인</p>
                             </a>
                             <a className='kakao' href="!#">
-                                <img className='Kakao' src="../img/pc_kakao.png" alt="" />
+                                <img className='Kakao' src="./img/pc_kakao.png" alt="" />
                                 <p>카카오<br />로그인</p>
                             </a>
                             <a href="!#">
-                                <img src="../img/pc_apple.png" alt="" />
+                                <img src="./img/pc_apple.png" alt="" />
                                 <p>Apple<br />로그인</p>
                             </a>
                         </div>
                         <div className="signup-btn-box">
                             <span>회원가입 + 카카오 친구 추가시 <strong>최대 4만원 혜택!</strong></span>
-                            <button className='signup-btn'>회원가입</button>
+                            <button className='signup-btn'><Link to="/회원가입">회원가입</Link></button>
                         </div>
                     </div>
                 </div>

@@ -111,7 +111,7 @@ export default function ProductInquiryViewComponent (props){
                         <div className="content">
                             <div className="board-view-box">
                                 <div className="board_view_tit">
-                                    <h3>{view.category}{view.subject}</h3>
+                                    <h3>[{view.category}]{view.subject}</h3>
                                 </div>
                                 <div className="board_view_info">
                                     <ul>

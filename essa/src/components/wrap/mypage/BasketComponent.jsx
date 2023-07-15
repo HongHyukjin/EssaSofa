@@ -397,7 +397,7 @@ export default function BasketComponent() {
                                     {
                                         state.total_sale > 0 && (
                                             <>
-                                                <span><img src="../img/product/order_price_minus.png" alt="" /></span>
+                                                <span><img src="./img/product/order_price_minus.png" alt="" /></span>
                                                 <dl>
                                                     <dt>
                                                         상품할인
@@ -409,13 +409,13 @@ export default function BasketComponent() {
                                             </>
                                         )
                                     }
-                                    <span><img src="../img/order_price_plus.png" alt="" /></span>
+                                    <span><img src="./img/order_price_plus.png" alt="" /></span>
                                     <dl>
                                         <dt>배송비</dt>
                                         <dd><strong className='total-delivery'>0</strong>원</dd>
                                     </dl>
                                     <span>
-                                        <img src="../img/order_price_total.png" alt="" />
+                                        <img src="./img/order_price_total.png" alt="" />
                                     </span>
                                     <dl className='price-total'>
                                         <dt>합계</dt>
