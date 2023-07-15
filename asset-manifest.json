@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f93e02c.css",
-    "main.js": "/static/js/main.1a0cdc5a.js",
-    "index.html": "/index.html",
-    "main.2f93e02c.css.map": "/static/css/main.2f93e02c.css.map",
-    "main.1a0cdc5a.js.map": "/static/js/main.1a0cdc5a.js.map"
+    "main.css": "/EssaSofa/static/css/main.2f93e02c.css",
+    "main.js": "/EssaSofa/static/js/main.1a0cdc5a.js",
+    "index.html": "/EssaSofa/index.html",
+    "main.2f93e02c.css.map": "/EssaSofa/static/css/main.2f93e02c.css.map",
+    "main.1a0cdc5a.js.map": "/EssaSofa/static/js/main.1a0cdc5a.js.map"
   },
   "entrypoints": [
     "static/css/main.2f93e02c.css",
